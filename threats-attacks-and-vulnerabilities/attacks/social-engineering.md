@@ -4,43 +4,59 @@ description: Compare and contrast types of attacks.
 
 # Social Engineering
 
-Social Engineering attacks a person's willingness to trust the kindness of strangers. 
+Social Engineering attacks target the vulnerability of people. It's human nature to be complacent, sympathetic, and/or trust the kindness of strangers. As a security professional, you must understand how bad guys take advantage of good people to achieve their objectives. Attackers often use Social Engineering to gain access or install malicious software. You should also know how to mitigate these attacks through cybersecurity awareness programs. If you want to change someone's behavior, increase their awareness. 
 
-## Principles
+### Principles
 
-### Authority
+Social Engineering attacks are successful because they use the following principles to take advantage of people: authority, intimidation, consensus, scarcity, familiarity, trust, and urgency. Below are idioms and examples for each. 
 
-### Intimidation
+#### Authority
 
-### Consensus
+Impersonating law enforcement. 
 
-### Scarcity
+#### Intimidation
 
-### Familiarity
+Death threats. 
 
-### Trust
+#### Consensus
 
-### Urgency
+Blackmail. Threatening to disclose a system administrator's extramarital affair unless they install malicious software. 
 
-## Phishing
+#### Scarcity
 
-## Spear Phishing
+Fear of missing out. 
 
-## Whaling
+#### Familiarity
 
-## Vishing
+Birds of a feather flock together. Using common interests and kindness to collect intelligence from an employee about their organization. 
 
-## Tailgating
+#### Trust
 
-## Impersonation
+A leap of faith. 
 
-## Dumpster Diving
+#### Urgency
 
-## Shoulder surfing
+If not now, then never. 
 
-## Hoax
+### Phishing
 
-## Watering Hole Attack
+#### Spear Phishing
+
+#### Whaling
+
+#### Vishing
+
+### Impersonation
+
+### Hoax
+
+### Tailgating
+
+### Shoulder Surfing
+
+### Watering Holes
+
+### Dumpster Diving
 
 ### 
 

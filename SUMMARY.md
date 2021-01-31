@@ -4,12 +4,12 @@
 
 ## Threats, Attacks and Vulnerabilities
 
-* [Malware](threats-attacks-and-vulnerabilities/malware.md)
 * [Attacks](threats-attacks-and-vulnerabilities/attacks/README.md)
   * [Social Engineering](threats-attacks-and-vulnerabilities/attacks/social-engineering.md)
   * [Wireless Attacks](threats-attacks-and-vulnerabilities/attacks/wireless-attacks.md)
   * [Application/Service Attacks](threats-attacks-and-vulnerabilities/attacks/application-service-attacks.md)
   * [Cryptography Attacks](threats-attacks-and-vulnerabilities/attacks/cryptography-attacks.md)
+* [Malware](threats-attacks-and-vulnerabilities/malware.md)
 * [Threats](threats-attacks-and-vulnerabilities/threats.md)
 * [Penetration Testing](threats-attacks-and-vulnerabilities/penetration-testing.md)
 * [Scanning](threats-attacks-and-vulnerabilities/scanning.md)
