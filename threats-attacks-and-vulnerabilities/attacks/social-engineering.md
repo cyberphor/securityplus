@@ -6,7 +6,7 @@ description: Compare and contrast types of attacks.
 
 Social Engineering attacks target the vulnerability of people. It's human nature to be complacent, sympathetic, and/or trust the kindness of strangers. As a security professional, you must understand how bad guys take advantage of good people to achieve their objectives. Attackers often use Social Engineering to collect intelligence, gain access, or install malicious software. You should also know how to mitigate these attacks through cybersecurity awareness programs. If you want to change someone's behavior, increase their awareness. 
 
-### Principles
+## Principles
 
 Social Engineering attacks are successful because they use the following principles to take advantage of people: authority, intimidation, consensus, scarcity, familiarity, trust, and urgency. Below are examples for each. 
 
@@ -38,6 +38,8 @@ Leveraging an existing relationship to get someone to download unauthorized soft
 
 Gaining physical access to a building after asking for directions to the bathroom. 
 
+## Impersonation
+
 ### Phishing
 
 #### Spear Phishing
@@ -46,13 +48,15 @@ Gaining physical access to a building after asking for directions to the bathroo
 
 #### Vishing
 
-### Impersonation
-
-### Hoax
+## Proximity-based Attacks
 
 ### Tailgating
 
 ### Shoulder Surfing
+
+## Community-based Attacks
+
+### Hoaxes
 
 ### Watering Holes
 
