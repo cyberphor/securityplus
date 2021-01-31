@@ -1,18 +1,36 @@
-# Cryptography Attacks
+---
+description: Compare and contrast types of attacks.
+---
 
-## Birthday 
+# Password Guessing
 
-## Known Plain-Text/Cipher-Text
+## Encryption & Hashing
+
+## Online vs Offline Attacks 
+
+### Online Attacks
+
+### Offline Attacks
+
+## Collisions
+
+### The Birthday Paradox
+
+## Known Text
+
+### Known Plain-Text
+
+### Known Cipher-Text
+
+## Brute Force
 
 ## Rainbow Tables
 
 ## Brute Force
 
-## Collision
-
-## Downgrade
-
 ## Replay
 
-## Week Implementations
+## Weak Implementations
+
+### Downgrade Attacks
 
