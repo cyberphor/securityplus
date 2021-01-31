@@ -8,35 +8,35 @@ Social Engineering attacks target the vulnerability of people. It's human nature
 
 ### Principles
 
-Social Engineering attacks are successful because they use the following principles to take advantage of people: authority, intimidation, consensus, scarcity, familiarity, trust, and urgency. Below are idioms and examples for each. 
+Social Engineering attacks are successful because they use the following principles to take advantage of people: authority, intimidation, consensus, scarcity, familiarity, trust, and urgency. Below are examples for each. 
 
 #### Authority
 
-Impersonating management, an IT helpdesk, or law enforcement. 
+Calling someone for their password while impersonating an IT helpdesk clerk. 
 
 #### Intimidation
 
-Death threats. 
+Frightening someone into connecting a USB device to their computer.  
 
 #### Consensus
 
-Blackmail. Threatening to disclose a system administrator's extramarital affair unless they install malicious software. 
+Exchanging tickets to a football game for administrator privileges. 
 
 #### Scarcity
 
-Fear of missing out. 
+Emailing someone a link and the promise of limited access to a vaccine if they click on it. 
 
 #### Familiarity
 
-Birds of a feather flock together. Using common interests and kindness to collect intelligence from an employee about their organization. 
+Using common interests and kindness to collect intelligence from an employee about their organization. 
 
 #### Trust
 
-A leap of faith. 
+Leveraging an existing relationship to get someone to download unauthorized software. 
 
 #### Urgency
 
-If not now, then never. 
+Gaining physical access to a building after asking for directions to the bathroom. 
 
 ### Phishing
 
