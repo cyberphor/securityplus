@@ -22,8 +22,8 @@
 
 * [Network Security Devices](technologies-and-tools/network-devices.md)
 * [Assessment Tools](technologies-and-tools/tools.md)
-* [Troubleshooting](technologies-and-tools/troubleshooting.md)
-* [Security Technologies](technologies-and-tools/security-technologies.md)
+* [Troubleshooting Security Issues](technologies-and-tools/troubleshooting.md)
+* [Output from Security Technologies](technologies-and-tools/security-technologies.md)
 * [Mobile Device Security](technologies-and-tools/mobile-device-security.md)
 * [Secure Protocols](technologies-and-tools/untitled.md)
 
