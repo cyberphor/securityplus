@@ -12,6 +12,10 @@ description: Compare and contrast types of attacks.
 
 ### Offline Attacks
 
+## Brute Force
+
+## Rainbow Tables
+
 ## Collisions
 
 ### The Birthday Paradox
@@ -21,12 +25,6 @@ description: Compare and contrast types of attacks.
 ### Known Plain-Text
 
 ### Known Cipher-Text
-
-## Brute Force
-
-## Rainbow Tables
-
-## Brute Force
 
 ## Replay
 
