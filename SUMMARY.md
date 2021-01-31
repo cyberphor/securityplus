@@ -20,16 +20,22 @@
 
 ## Technologies and Tools
 
-* [Network Security Devices](technologies-and-tools/network-devices.md)
+* [Network Security](technologies-and-tools/network-devices.md)
+* [Network Security Data](technologies-and-tools/security-technologies.md)
 * [Assessment Tools](technologies-and-tools/tools.md)
 * [Troubleshooting Security Issues](technologies-and-tools/troubleshooting.md)
-* [Output from Security Technologies](technologies-and-tools/security-technologies.md)
 * [Mobile Device Security](technologies-and-tools/mobile-device-security.md)
 * [Secure Protocols](technologies-and-tools/untitled.md)
 
 ## Architecture and Design
 
-* [Untitled](architecture-and-design/untitled.md)
+* [Frameworks, Best Practices, and Configuration Guides](architecture-and-design/untitled.md)
+* [Network Architecture](architecture-and-design/network-architecture.md)
+* [System Security](architecture-and-design/system-security.md)
+* [System Deployment](architecture-and-design/system-deployment.md)
+* [Embedded Systems](architecture-and-design/embedded-systems.md)
+* [Application Security](architecture-and-design/application-security.md)
+* [Cloud & Virtualization Security](architecture-and-design/cloud-and-virtualization-security.md)
 
 ## Identity and Access Management
 
