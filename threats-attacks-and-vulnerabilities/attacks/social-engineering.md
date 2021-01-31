@@ -4,7 +4,7 @@ description: Compare and contrast types of attacks.
 
 # Social Engineering
 
-Social Engineering attacks target the vulnerability of people. It's human nature to be complacent, sympathetic, and/or trust the kindness of strangers. As a security professional, you must understand how bad guys take advantage of good people to achieve their objectives. Attackers often use Social Engineering to gain access or install malicious software. You should also know how to mitigate these attacks through cybersecurity awareness programs. If you want to change someone's behavior, increase their awareness. 
+Social Engineering attacks target the vulnerability of people. It's human nature to be complacent, sympathetic, and/or trust the kindness of strangers. As a security professional, you must understand how bad guys take advantage of good people to achieve their objectives. Attackers often use Social Engineering to collect intelligence, gain access, or install malicious software. You should also know how to mitigate these attacks through cybersecurity awareness programs. If you want to change someone's behavior, increase their awareness. 
 
 ### Principles
 
@@ -12,7 +12,7 @@ Social Engineering attacks are successful because they use the following princip
 
 #### Authority
 
-Impersonating law enforcement. 
+Impersonating management, an IT helpdesk, or law enforcement. 
 
 #### Intimidation
 
