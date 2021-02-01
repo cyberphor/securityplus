@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
+* [References](references.md)
 
 ## Threats, Vulnerabilities, and Attacks <a id="threats-attacks-and-vulnerabilities"></a>
 
