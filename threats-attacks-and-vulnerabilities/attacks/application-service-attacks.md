@@ -4,7 +4,7 @@ description: Compare and contrast types of attacks.
 
 # Attacking Services & Applications
 
-Attacks against services/applications seek to disrupt or manipulate client-server communications. They occur between systems, within systems, and against the web. As a security professional, you must know how to recognize them and reduce their impact. 
+Attacks against services/applications seek to disrupt or manipulate client-server communications. They occur between systems, within systems, and against the web. As a security professional, you must be able to recognize them and reduce their impact. 
 
 ## Between Systems
 
