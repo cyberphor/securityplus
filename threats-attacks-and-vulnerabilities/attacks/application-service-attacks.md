@@ -20,7 +20,7 @@ Attacks against services/applications seek to disrupt or manipulate client-serve
 
 ### Protocol-based Attacks
 
-![](../../.gitbook/assets/spoofing.png)
+![Spoofing is when attackers disguise themselves as someone trustworthy.](../../.gitbook/assets/spoofing.png)
 
 #### MAC Spoofing
 
