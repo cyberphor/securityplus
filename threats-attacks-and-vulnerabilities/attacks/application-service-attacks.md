@@ -2,7 +2,9 @@
 description: Compare and contrast types of attacks.
 ---
 
-# Attacking Network Services & Applications
+# Attacking Services & Applications
+
+Attacks against services and applications can be categorized based on their scope. For example, attacks occur between systems \(across the network\), within systems, and against the web. 
 
 ## Across the Network
 
