@@ -42,7 +42,7 @@ Privilege Escalation is when an attacker uses low-level access to a system to ga
 
 ### Zero-Days
 
-
+Zero-Days are vulnerabilities that do not have a patch yet. The name alludes to the number of days the software/hardware developer has had to address it. 
 
 ### Buffer Overflow
 
