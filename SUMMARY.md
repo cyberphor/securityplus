@@ -13,7 +13,7 @@
   * [Wireless Communications](threats-attacks-and-vulnerabilities/attacks/wireless-attacks.md)
   * [Social Engineering](threats-attacks-and-vulnerabilities/attacks/social-engineering.md)
   * [Password Guessing](threats-attacks-and-vulnerabilities/attacks/cryptography-attacks.md)
-  * [Attacking Network Services & Applications](threats-attacks-and-vulnerabilities/attacks/application-service-attacks.md)
+  * [Attacking Services & Applications](threats-attacks-and-vulnerabilities/attacks/application-service-attacks.md)
 * [Scanning](threats-attacks-and-vulnerabilities/scanning.md)
 * [Malware](threats-attacks-and-vulnerabilities/malware.md)
 * [Penetration Testing](threats-attacks-and-vulnerabilities/penetration-testing.md)
