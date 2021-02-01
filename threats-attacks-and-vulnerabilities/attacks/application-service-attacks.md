@@ -4,9 +4,9 @@ description: Compare and contrast types of attacks.
 
 # Attacking Services & Applications
 
-Attacks against services and applications can be categorized based on their scope. For example, attacks occur between systems \(across the network\), within systems, and against the web. 
+Attacks against services/applications seek to disrupt or manipulate client-server communications. They occur between systems, within systems, and against the web. As a security professional, you must know how to recognize them and reduce their impact. 
 
-## Across the Network
+## Between Systems
 
 ### Generic Attacks
 
@@ -28,7 +28,7 @@ Attacks against services and applications can be categorized based on their scop
 
 #### DNS Poisoning
 
-## Within a Computer
+## Within Systems
 
 ### Privilege Escalation
 
