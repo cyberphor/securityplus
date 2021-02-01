@@ -20,6 +20,8 @@ Attacks against services/applications seek to disrupt or manipulate client-serve
 
 ### Protocol-based Attacks
 
+![](../../.gitbook/assets/spoofing.png)
+
 #### MAC Spoofing
 
 #### ARP Poisoning
