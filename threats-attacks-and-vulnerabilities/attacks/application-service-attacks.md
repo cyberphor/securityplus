@@ -58,6 +58,8 @@ Attackers will routinely refactor the malware they develop to evade detection. F
 
 ## Against the Web
 
+![](../../.gitbook/assets/016-www.png)
+
 ### Cross-Site Scripting
 
 Cross-Site Scripting \(XSS\) is when an attacker stages and launches an attack from a website that accepts input. The attack is not against the server hosting the website, it is against anyone who visits the website. These kind of attacks are described as _client-side attacks_ as opposed to _server-side attacks_. Prime candidates for XSS attacks are social media platforms like blogs and message boards. These attacks work because of the way web browsers render HTML \(Hypertext Markup Language\) files and JavaScript code. 
@@ -69,6 +71,8 @@ Other conditions that allow XSS attacks to happen are when websites fail to vali
 ### Cross-Site Request Forgery
 
 ### Injection
+
+
 
 ### Man-in-the-Browser
 
