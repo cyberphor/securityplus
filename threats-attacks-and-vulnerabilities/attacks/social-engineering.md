@@ -42,6 +42,8 @@ Gaining physical access to a building after asking for directions to the bathroo
 
 ### Phishing
 
+![](../../.gitbook/assets/019-phishing.png)
+
 #### Spear Phishing
 
 #### Whaling
