@@ -76,8 +76,6 @@ Other conditions that allow XSS attacks to happen are when websites fail to vali
 
 ### Injection
 
-
-
 ### Man-in-the-Browser
 
 ### Hijacking
