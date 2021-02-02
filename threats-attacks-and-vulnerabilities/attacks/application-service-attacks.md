@@ -88,7 +88,7 @@ Malicious web browser add-ons.
 
 Taking a domain name from the original registrant. This can happen via Social Engineering or complacency. For example, if you fail to monitor when your domain name registration ends, someone could purchase it and hold it for ransom \(how much are you willing to pay for your reputation online?\). 
 
-### Click-jacking
+### Click-Jacking
 
 Getting a user to click on something that appears benign but is actually malicious. For example, a button on a website might say "Click here for free beer!" Unbeknownst to the user, the button is a link to a malicious server. 
 
