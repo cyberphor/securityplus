@@ -60,6 +60,12 @@ Attackers will routinely refactor the malware they develop to evade detection. F
 
 ### Cross-Site Scripting
 
+Cross-Site Scripting \(XSS\) is when an attacker stages and launches an attack from a website that accepts input. The attack is not against the server hosting the website, it is against anyone who visits the website. These kind of attacks are described as _client-side attacks_ as opposed to _server-side attacks_. Prime candidates for XSS attacks are social media platforms like blogs and message boards. These attacks work because of the way web browsers render HTML \(Hypertext Markup Language\) files and JavaScript code. 
+
+Websites with static information are written in HTML and consist of elements like `<h1>` and `</h1>`  tags. Think of static information like restaurant menus, phone numbers, and the names of business owners. If someone wanted to display dynamic content, they would add JavaScript to their HTML code. Dynamic content might be weather notifications, online puzzles, etc. HTML organizes JavaScript code using `<script>` and `</script>` tags. 
+
+
+
 ### Cross-Site Request Forgery
 
 ### Injection
