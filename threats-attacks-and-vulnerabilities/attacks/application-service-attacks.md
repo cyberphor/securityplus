@@ -16,6 +16,8 @@ Attacks against services/applications seek to disrupt or manipulate client-serve
 
 #### Man-in-the-Middle
 
+![](../../.gitbook/assets/014-hacker.png)
+
 #### Amplification
 
 ### Protocol-based Attacks
@@ -35,6 +37,8 @@ Attacks against services/applications seek to disrupt or manipulate client-serve
 ### Pass-the-Hash
 
 Pass-the-Hash is when an attacker uses the hash of a victim's password instead of the actual credential to login. By doing so, the attacker eliminates the need to guess the plain-text version. An attacker will be able to learn a victim's password hash if it unencrypted and stored or sent across the network.  
+
+![PTH is when an attacker authenticates with a hash instead of a password.](../../.gitbook/assets/012-hash.png)
 
 ### Privilege Escalation
 
