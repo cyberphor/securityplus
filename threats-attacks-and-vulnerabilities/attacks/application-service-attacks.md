@@ -62,9 +62,9 @@ Attackers will routinely refactor the malware they develop to evade detection. F
 
 Cross-Site Scripting \(XSS\) is when an attacker stages and launches an attack from a website that accepts input. The attack is not against the server hosting the website, it is against anyone who visits the website. These kind of attacks are described as _client-side attacks_ as opposed to _server-side attacks_. Prime candidates for XSS attacks are social media platforms like blogs and message boards. These attacks work because of the way web browsers render HTML \(Hypertext Markup Language\) files and JavaScript code. 
 
-Websites with static information are written in HTML and consist of elements like `<h1>` and `</h1>`  tags. Think of static information like restaurant menus, phone numbers, and the names of business owners. If someone wanted to display dynamic content, they would add JavaScript to their HTML code. Dynamic content might be weather notifications, online puzzles, etc. HTML organizes JavaScript code using `<script>` and `</script>` tags. 
+Websites with static information are written in HTML and consist of elements like `<h1>` and `</h1>`  tags. Think of static information like restaurant menus, phone numbers, and the names of business owners. If someone wanted to display dynamic content, they would add JavaScript to their HTML code. Dynamic content might be weather notifications, online puzzles, etc. HTML organizes JavaScript code using `<script>` and `</script>` tags. Although, the browser doesn't care what kind of data is served. It will render anything it recognizes. 
 
-
+Other conditions that allow XSS attacks to happen are when websites fail to validate input \(block special characters like those found in `</script>` tags\). I mentioned blogs before, let's use those as an example. Blog owners may wish to accept input so readers can comment and provide feedback. Yet, what if instead of sharing praise an attacker typed malicious code written in a language like JavaScript? Anyone visiting the blog would then fall prey to the perpetrator's XSS attack. As a security professional, you must be cognizant of possible avenues of approach an attacker may take, especially public-facing ones like the web. 
 
 ### Cross-Site Request Forgery
 
@@ -80,7 +80,5 @@ Websites with static information are written in HTML and consist of elements lik
 
 #### Session Hijacking
 
-#### URL Hijacking
-
-#### Typo-squatting
+#### URL Hijacking & Typo-squatting
 
