@@ -86,21 +86,21 @@ Malicious web browser add-ons.
 
 ### Domain Hijacking
 
-Domain Hijacking is taking a domain name from the original registrant. This can happen via Social Engineering or complacency. For example, if you allow your domain name registration to expire, someone could purchase it and hold it for ransom \(how much are you willing to pay for your reputation online?\). 
+Domain Hijacking is when attacker takes control of a domain name from from the original registrant. This can happen via Social Engineering or complacency. For example, if you allow your domain name registration to expire, someone could purchase it and hold it for ransom \(how much are you willing to pay for your reputation online?\). 
 
 ### Click-Jacking
 
-Click-Jacking is getting a user to click on something that appears benign but is actually malicious. For example, a button on a website might say "Click here for free beer!" Unbeknownst to the user, the button is a link to a server hosting malware. 
+Click-Jacking is when the attacker gets a user to click on something that appears benign but is actually malicious. For example, a button on a website might say "Click here for free beer!" Unbeknownst to the user, the button is a link to a server hosting malware. 
 
 ### Session Hijacking
 
 -
 
-### URL Hijacking
-
-URL Hijacking is when an attacker registers a domain name of a topic that is expected to garner a lot of attention. For example, say there's a rumor that Angelina Jolie will run for president in 2024. Someone might go buy `www.angelina4president2024.com` expecting to get a return-on-investment in the future. 
-
 ### Typo-Squatting
 
--
+Typo-Squatting is when the attacker purchases and leverages the misspelled version of a popular domain name. For instance, people often misspell Google as Gogle, Goggle, and Gooogle. Any one of these names would be perfect for an attacker seeking to phish or exploit. 
+
+### Domain Squatting
+
+Domain Squatting is when an attacker registers a domain name of a topic that is expected to garner a lot of attention. For example, say there's a rumor that Angelina Jolie will run for president in 2024. Someone may then buy `www.angelina4president2024.com` expecting to get a return-on-investment in the future. Domain Squatting is not currently listed as a CompTIA Security+ exam topic. 
 
