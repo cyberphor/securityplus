@@ -88,7 +88,7 @@ Cookies are given to users by web servers that need to remember them. They can b
 
 ### Man-in-the-Browser
 
-Malicious web browser add-ons.
+Man-in-the-Browser attacks come from malicious web browser add-ons.
 
 ### Domain Hijacking
 
