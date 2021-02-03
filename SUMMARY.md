@@ -5,16 +5,13 @@
 
 ## Threats, Vulnerabilities, and Attacks <a id="threats-attacks-and-vulnerabilities"></a>
 
-* [Threats](threats-attacks-and-vulnerabilities/threats/README.md)
-  * [Threat Actor Attributes](threats-attacks-and-vulnerabilities/threats/threat-actor-attributes.md)
-  * [Threat Actor Types](threats-attacks-and-vulnerabilities/threats/threat-actor-types.md)
-  * [Using Open-Source Intelligence](threats-attacks-and-vulnerabilities/threats/using-open-source-intelligence.md)
+* [Threats](threats-attacks-and-vulnerabilities/threat-actor-attributes.md)
 * [Vulnerabilities](threats-attacks-and-vulnerabilities/vulnerabilities.md)
 * [Attacks](threats-attacks-and-vulnerabilities/attacks/README.md)
   * [Wireless Communications](threats-attacks-and-vulnerabilities/attacks/wireless-attacks.md)
   * [Social Engineering](threats-attacks-and-vulnerabilities/attacks/social-engineering.md)
   * [Password Guessing](threats-attacks-and-vulnerabilities/attacks/cryptography-attacks.md)
-  * [Attacking Services & Applications](threats-attacks-and-vulnerabilities/attacks/application-service-attacks.md)
+  * [Services & Applications](threats-attacks-and-vulnerabilities/attacks/application-service-attacks.md)
 * [Scanning](threats-attacks-and-vulnerabilities/scanning.md)
 * [Malware](threats-attacks-and-vulnerabilities/malware.md)
 * [Penetration Testing](threats-attacks-and-vulnerabilities/penetration-testing.md)
