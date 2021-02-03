@@ -64,6 +64,30 @@ Attackers will routinely refactor the malware they develop to evade detection. F
 
 ![](../../.gitbook/assets/016-www.png)
 
+### Domain Squatting
+
+Domain Squatting is when an attacker registers a domain name of a topic that is expected to garner a lot of attention. To explain, say there's a rumor that Angelina Jolie will run for president in 2024. Someone may then buy `www.angelina4president2024.com` expecting to get a return-on-investment in the future.
+
+### Domain Hijacking
+
+Domain Hijacking is when attacker takes control of an existing domain name from from the original registrant. This can happen via Social Engineering or complacency. For example, if you allow your domain name registration to expire, someone could purchase it and hold it for ransom \(how much are you willing to pay for your online reputation?\). 
+
+### Typo-Squatting
+
+![](../../.gitbook/assets/017-domain.png)
+
+Typo-Squatting \(a.k.a "URL Hijacking"\) is when the attacker purchases and leverages the misspelled version of a popular domain name. For instance, people often misspell Google as Gogle, Goggle, and Gooogle. Any one of these names would be perfect for an attacker seeking to phish or exploit. 
+
+### Click-Jacking
+
+![](../../.gitbook/assets/018-website.png)
+
+Click-Jacking is when the attacker gets a user to click on something that appears benign but is actually malicious. A button on a website might say "Click here for free beer!" Unbeknownst to the user, the button links to a server hosting malware. 
+
+### Man-in-the-Browser
+
+Man-in-the-Browser attacks come from malicious web browser add-ons.
+
 ### Cross-Site Scripting
 
 Cross-Site Scripting \(XSS\) is when an attacker stages and launches an attack from a website that accepts input. The attack is not against the server hosting the website, it is against anyone who visits the website. These kind of attacks are described as _client-side attacks_ as opposed to _server-side attacks_. Prime candidates for XSS attacks are social media platforms like blogs and message boards. These attacks work because of the way web browsers render HTML \(Hypertext Markup Language\) files and JavaScript code. 
@@ -82,6 +106,10 @@ Cross-Site Request Forgery \(CSRF\) is when an attacker executes actions on a us
 
 Cookies are given to users by web servers that need to remember them. They can be used by the web server to track the user's preferences, activity, or that they have properly authenticated. If you have ever put something into an online shopping cart, left the website, returned, and the item was still in your cart, you were given a cookie. Cookies are either persistent or not persistent. Persistent cookies are text-files that get added temporarily added to your computer's file system. Non-persistent cookies could be the same data albeit they are maintained in your computer's memory instead. The type of cookie you get depends on the web server. 
 
+### Session Hijacking
+
+Session Hijacking is when the attacker discovers the identifier \(ID\) of a user's web session, spoofs them, and assumes control of their session. To explain, a web server will track your session with it by ID. If someone is able to learn what your ID is, they can spoof or impersonate your session with the web server.  
+
 ### SQL Injection
 
 SQL Injection is when an attacker sends SQL database commands as input to a website. Websites consist of a front-end and a back-end. What you see in your browser represents the front. What resides on the web server is the back. Back-end components of a web server often include a program used to serve files \(i.e., web pages\) and a database to house raw data \(usernames, passwords, etc.\). An attacker using SQL Injection knows this and will use this to his advantage. Instead of querying just for web pages, she may query for both web pages and passwords. The vulnerability she is exploiting resides between how the front-end of a web server communicates with the back-end.  To explain, look at the command below. 
@@ -91,32 +119,4 @@ SQL Injection is when an attacker sends SQL database commands as input to a webs
 `SELECT * FROM users WHERE username = admin or 1=1;`
 
 
-
-### Man-in-the-Browser
-
-Man-in-the-Browser attacks come from malicious web browser add-ons.
-
-### Domain Hijacking
-
-Domain Hijacking is when attacker takes control of a domain name from from the original registrant. This can happen via Social Engineering or complacency. For example, if you allow your domain name registration to expire, someone could purchase it and hold it for ransom \(how much are you willing to pay for your online reputation?\). 
-
-### Click-Jacking
-
-![](../../.gitbook/assets/018-website.png)
-
-Click-Jacking is when the attacker gets a user to click on something that appears benign but is actually malicious. A button on a website might say "Click here for free beer!" Unbeknownst to the user, the button links to a server hosting malware. 
-
-### Session Hijacking
-
-Session Hijacking is when the attacker discovers the identifier \(ID\) of a user's web session, spoofs them, and assumes control of their session. To explain, a web server will track your session with it by ID. If someone is able to learn what your ID is, they can spoof or impersonate your session with the web server.  
-
-### URL Hijacking
-
-![](../../.gitbook/assets/017-domain.png)
-
-URL Hijacking \(a.k.a "Typo-Squatting"\) is when the attacker purchases and leverages the misspelled version of a popular domain name. For instance, people often misspell Google as Gogle, Goggle, and Gooogle. Any one of these names would be perfect for an attacker seeking to phish or exploit. 
-
-### Domain Squatting
-
-Domain Squatting is when an attacker registers a domain name of a topic that is expected to garner a lot of attention. To explain, say there's a rumor that Angelina Jolie will run for president in 2024. Someone may then buy `www.angelina4president2024.com` expecting to get a return-on-investment in the future. Domain Squatting is not currently listed as a CompTIA Security+ exam topic. 
 
