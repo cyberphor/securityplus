@@ -1,2 +1,2 @@
-# Using Open-Source Intelligence
+# Open-Source Intelligence
 

@@ -6,9 +6,8 @@
 ## Threats, Vulnerabilities, and Attacks <a id="threats-attacks-and-vulnerabilities"></a>
 
 * [Threats](threats-attacks-and-vulnerabilities/threats/README.md)
-  * [Threat Actor Attributes](threats-attacks-and-vulnerabilities/threats/threat-actor-attributes.md)
-  * [Threat Actor Types](threats-attacks-and-vulnerabilities/threats/threat-actor-types.md)
-  * [Using Open-Source Intelligence](threats-attacks-and-vulnerabilities/threats/using-open-source-intelligence.md)
+  * [Threat Actors](threats-attacks-and-vulnerabilities/threats/threat-actor-attributes.md)
+  * [Open-Source Intelligence](threats-attacks-and-vulnerabilities/threats/using-open-source-intelligence.md)
 * [Vulnerabilities](threats-attacks-and-vulnerabilities/vulnerabilities.md)
 * [Attacks](threats-attacks-and-vulnerabilities/attacks/README.md)
   * [Wireless Communications](threats-attacks-and-vulnerabilities/attacks/wireless-attacks.md)

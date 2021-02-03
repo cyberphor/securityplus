@@ -1,12 +1,28 @@
-# Threat Actor Attributes
+# Threat Actors
 
-## Internal vs External
+## Attributes
 
-## Level of Sophiscation
+### Internal vs External
 
-## Resources & Funding
+### Level of Sophistication
 
-## Intent & Motivation
+### Resources & Funding
+
+### Intent & Motivation
+
+## Types
+
+### Script Kiddies
+
+### Hacktivists
+
+### Organized Crime
+
+### Nation States
+
+### Insiders
+
+### Competitors
 
 
 
