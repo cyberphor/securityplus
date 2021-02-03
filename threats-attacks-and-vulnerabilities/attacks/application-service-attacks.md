@@ -108,7 +108,7 @@ Click-Jacking is when the attacker gets a user to click on something that appear
 
 ### Session Hijacking
 
--
+Session Hijacking is when the attacker discovers the identifier \(ID\) of a user's web session, spoofs them, and assumes control of their session. To explain, a web server will track your session with it by ID. If someone is able to learn what your ID is, they can spoof or impersonate your session with the web server.  
 
 ### URL Hijacking
 
