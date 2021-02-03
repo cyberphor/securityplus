@@ -82,9 +82,15 @@ Cross-Site Request Forgery \(CSRF\) is when an attacker executes actions on a us
 
 Cookies are given to users by web servers that need to remember them. They can be used by the web server to track the user's preferences, activity, or that they have properly authenticated. If you have ever put something into an online shopping cart, left the website, returned, and the item was still in your cart, you were given a cookie. Cookies are either persistent or not persistent. Persistent cookies are text-files that get added temporarily added to your computer's file system. Non-persistent cookies could be the same data albeit they are maintained in your computer's memory instead. The type of cookie you get depends on the web server. 
 
-### Injection
+### SQL Injection
 
--
+SQL Injection is when an attacker sends SQL database commands as input to a website. Websites consist of a front-end and a back-end. What you see in your browser represents the front. What resides on the web server is the back. Back-end components of a web server often include a program used to serve files \(i.e., web pages\) and a database to house raw data \(usernames, passwords, etc.\). An attacker using SQL Injection knows this and will use this to his advantage. Instead of querying just for web pages, she may query for both web pages and passwords. The vulnerability she is exploiting resides between how the front-end of a web server communicates with the back-end.  To explain, look at the command below. 
+
+`Angelina Jolie' or 1=1; --`
+
+`SELECT * FROM users WHERE username = admin or 1=1;`
+
+
 
 ### Man-in-the-Browser
 
