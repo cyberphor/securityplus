@@ -112,7 +112,7 @@ Session Hijacking is when the attacker discovers the identifier \(ID\) of a user
 
 ### SQL Injection
 
-SQL Injection is when an attacker sends SQL database commands as input to a website. Websites consist of a front-end and a back-end. What you see in your browser represents the front. What resides on the web server is the back. Back-end components of a web server often include a program used to serve files \(i.e., web pages\) and a database to house raw data \(usernames, passwords, etc.\). An attacker using SQL Injection knows this and will use this to his advantage. Instead of querying just for web pages, she may query for both web pages and passwords. The vulnerability she is exploiting resides between how the front-end of a web server communicates with the back-end.  To explain, look at the command below. 
+SQL Injection is when an attacker sends SQL database commands as input to a website. Websites consist of a front-end and a back-end. What you see in your browser represents the front. What resides on the web server is the back. Back-end components of a web server often include a program used to serve files \(i.e., web pages\) and a database to house raw data \(usernames, passwords, etc.\). An attacker using SQL Injection knows this and will use this to his advantage. Instead of querying just for web pages, she may query for both web pages and passwords. The vulnerability she is exploiting resides between how the front-end of a web server communicates with the back-end. To explain, look at the command below. 
 
 `Angelina Jolie' or 1=1; --`
 
