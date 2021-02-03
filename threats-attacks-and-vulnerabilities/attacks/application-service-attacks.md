@@ -76,6 +76,8 @@ Other conditions that allow XSS attacks to happen are when websites fail to vali
 
 Cross-Site Request Forgery \(CSRF\) is when an attacker executes actions on a user's behalf against a website the user is currently authenticated with. To explain, imagine yourself online looking at your bank's website in one browser tab and skimming through social media in another. Someone sends you an link \(via social media\) and you click-on it. After checking it out, you look glance back at your bank only to realize it has a completely difference balance than before. You have now become a victim of the CSRF attack. This was possible because the attacker was able to access and reuse the cookies your bank gave you. 
 
+![](../../.gitbook/assets/cookie.png)
+
 #### What are Cookies?
 
 Cookies are given to users by web servers that need to remember them. They can be used by the web server to track the user's preferences, activity, or that they have properly authenticated. If you have ever put something into an online shopping cart, left the website, returned, and the item was still in your cart, you were given a cookie. Cookies are either persistent or not persistent. Persistent cookies are text-files that get added temporarily added to your computer's file system. Non-persistent cookies could be the same data albeit they are maintained in your computer's memory instead. The type of cookie you get depends on the web server. 
@@ -94,6 +96,8 @@ Domain Hijacking is when attacker takes control of a domain name from from the o
 
 ### Click-Jacking
 
+![](../../.gitbook/assets/018-website.png)
+
 Click-Jacking is when the attacker gets a user to click on something that appears benign but is actually malicious. A button on a website might say "Click here for free beer!" Unbeknownst to the user, the button links to a server hosting malware. 
 
 ### Session Hijacking
@@ -101,6 +105,8 @@ Click-Jacking is when the attacker gets a user to click on something that appear
 -
 
 ### URL Hijacking
+
+![](../../.gitbook/assets/017-domain.png)
 
 URL Hijacking \(a.k.a "Typo-Squatting"\) is when the attacker purchases and leverages the misspelled version of a popular domain name. For instance, people often misspell Google as Gogle, Goggle, and Gooogle. Any one of these names would be perfect for an attacker seeking to phish or exploit. 
 
