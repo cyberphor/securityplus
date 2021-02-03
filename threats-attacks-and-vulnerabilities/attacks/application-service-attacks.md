@@ -96,9 +96,9 @@ Click-Jacking is when the attacker gets a user to click on something that appear
 
 -
 
-### Typo-Squatting
+### URL Hijacking
 
-Typo-Squatting is when the attacker purchases and leverages the misspelled version of a popular domain name. For instance, people often misspell Google as Gogle, Goggle, and Gooogle. Any one of these names would be perfect for an attacker seeking to phish or exploit. 
+URL Hijacking \(a.k.a "Typo-Squatting"\) is when the attacker purchases and leverages the misspelled version of a popular domain name. For instance, people often misspell Google as Gogle, Goggle, and Gooogle. Any one of these names would be perfect for an attacker seeking to phish or exploit. 
 
 ### Domain Squatting
 
