@@ -38,7 +38,10 @@
 
 ## Identity and Access Management
 
-* [Untitled](identity-and-access-management/untitled.md)
+* [Concepts](identity-and-access-management/untitled.md)
+* [Services](identity-and-access-management/services.md)
+* [Controls](identity-and-access-management/controls.md)
+* [Procedures](identity-and-access-management/procedures.md)
 
 ## Risk Management
 

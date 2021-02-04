@@ -24,8 +24,6 @@ description: Explain the impact associated with types of vulnerabilities.
 
 ### Memory/Buffer Vulnerabilities
 
-#### 
-
 ### Resource Exhaustion
 
 ## Misconfigurations
@@ -35,8 +33,4 @@ description: Explain the impact associated with types of vulnerabilities.
 ### Accounts
 
 ### Cipher Suites
-
-### 
-
-
 
