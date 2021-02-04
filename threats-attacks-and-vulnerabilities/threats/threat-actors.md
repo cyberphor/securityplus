@@ -1,4 +1,14 @@
-# Threat Actor Types
+# Threat Actors
+
+## Attributes
+
+### Internal vs External
+
+### Level of Sophistication
+
+### Resources & Funding
+
+### Intent & Motivation
 
 ## Types
 
