@@ -5,16 +5,17 @@
 
 ## Threats, Vulnerabilities, and Attacks <a id="threats-attacks-and-vulnerabilities"></a>
 
-* [Threats](threats-attacks-and-vulnerabilities/threat-actor-attributes.md)
-* [Vulnerabilities](threats-attacks-and-vulnerabilities/vulnerabilities.md)
+* [Threats](threats-attacks-and-vulnerabilities/threats/README.md)
+  * [Threat Actors](threats-attacks-and-vulnerabilities/threats/threat-actors.md)
+  * [Malware](threats-attacks-and-vulnerabilities/threats/malware.md)
+* [Vulnerabilities](threats-attacks-and-vulnerabilities/vulnerabilities-1/README.md)
+  * [Vulnerability Research](threats-attacks-and-vulnerabilities/vulnerabilities-1/vulnerabilities.md)
+  * [Vulnerability Discovery](threats-attacks-and-vulnerabilities/vulnerabilities-1/vulnerability-discovery.md)
 * [Attacks](threats-attacks-and-vulnerabilities/attacks/README.md)
   * [Wireless Communications](threats-attacks-and-vulnerabilities/attacks/wireless-attacks.md)
   * [Social Engineering](threats-attacks-and-vulnerabilities/attacks/social-engineering.md)
   * [Password Guessing](threats-attacks-and-vulnerabilities/attacks/cryptography-attacks.md)
   * [Services & Applications](threats-attacks-and-vulnerabilities/attacks/application-service-attacks.md)
-* [Scanning](threats-attacks-and-vulnerabilities/scanning.md)
-* [Malware](threats-attacks-and-vulnerabilities/malware.md)
-* [Penetration Testing](threats-attacks-and-vulnerabilities/penetration-testing.md)
 
 ## Technologies and Tools
 

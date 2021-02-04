@@ -4,5 +4,5 @@ description: Compare and contrast types of attacks.
 
 # Attacks
 
-In the following section, I explain the various avenues of approach a cybersecurity threat may take to achieve their objective. 
+In this section, I explain the avenues of approach the bad guys will take to exploit the vulnerabilities you discovered on your network. I start from a distance with wireless communication. Then, I focus on people and work my way to the crown jewels: your networked services and applications. 
 

@@ -40,10 +40,6 @@ Pass-the-Hash is when an attacker uses the hash of a victim's password instead o
 
 ![PTH is when an attacker authenticates with a hash instead of a password.](../../.gitbook/assets/012-hash.png)
 
-### Privilege Escalation
-
-Privilege Escalation is when an attacker uses low-level access to a system to gain high-level access. One way of doing this is by invoking programs that run with administrator privileges and hijacking them in memory. 
-
 ### Zero-Days
 
 Zero-Days are vulnerabilities that do not have a patch yet. The name alludes to the number of days the software/hardware developer has had to address it. 
@@ -51,6 +47,10 @@ Zero-Days are vulnerabilities that do not have a patch yet. The name alludes to 
 ### Buffer Overflow
 
 A Buffer Overflow is when an attacker provides more data than what a program was expecting. For example, imagine a program that creates a buffer in memory 10 characters in size. Said buffer is designed to save the letters of your first name. If you provide a name that's 11 characters long, the program will crash. This is a Buffer Overflow. Buffer Overflows are often used for Privilege Escalation. 
+
+### Privilege Escalation
+
+Privilege Escalation is when an attacker uses low-level access to a system to gain high-level access. One way of doing this is by invoking programs that run with administrator privileges and hijacking them in memory. 
 
 ### Shimming
 
@@ -112,7 +112,7 @@ Session Hijacking is when the attacker discovers the identifier \(ID\) of a user
 
 ### SQL Injection
 
-SQL Injection is when an attacker sends SQL database commands as input to a website. Websites consist of a front-end and a back-end. What you see in your browser represents the front. What resides on the web server is the back. Back-end components of a web server often include a program used to serve files \(i.e., web pages\) and a database to house raw data \(usernames, passwords, etc.\). An attacker using SQL Injection knows this and will use this to his advantage. Instead of querying just for web pages, she may query for both web pages and passwords. The vulnerability she is exploiting resides between how the front-end of a web server communicates with the back-end.  To explain, look at the command below. 
+SQL Injection is when an attacker sends SQL database commands as input to a website. Websites consist of a front-end and a back-end. What you see in your browser represents the front. What resides on the web server is the back. Back-end components of a web server often include a program used to serve files \(i.e., web pages\) and a database to house raw data \(usernames, passwords, etc.\). An attacker using SQL Injection knows this and will use this to his advantage. Instead of querying just for web pages, she may query for both web pages and passwords. The vulnerability she is exploiting resides between how the front-end of a web server communicates with the back-end. To explain, look at the command below. 
 
 `Angelina Jolie' or 1=1; --`
 
