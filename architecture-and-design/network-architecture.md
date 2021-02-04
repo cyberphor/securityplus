@@ -1,2 +1,2 @@
-# Network Architecture
+# Network Design
 
