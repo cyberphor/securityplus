@@ -54,7 +54,7 @@
   * [Data Security](risk-management/information-security/data-security.md)
   * [Privacy](risk-management/information-security/privacy.md)
 * [Contingency Planning](risk-management/contingency-planning/README.md)
-  * [Digital Forensics & Incident Response](risk-management/contingency-planning/digital-forensics-and-incident-response.md)
+  * [Incident Response](risk-management/contingency-planning/digital-forensics-and-incident-response.md)
   * [Disaster Recovery](risk-management/contingency-planning/disaster-recovery.md)
   * [Continuity of Operations](risk-management/contingency-planning/continuity-of-operations.md)
 
