@@ -6,11 +6,11 @@ description: Explain the impact associated with types of vulnerabilities.
 
 ## Business Processes
 
-#### Untrained Users
+### Untrained Users
 
-#### Undocumented Assets
+### Undocumented Assets
 
-#### Improper Certificate/Key Management
+### Improper Key Management
 
 ## Poor Architecture Design
 
