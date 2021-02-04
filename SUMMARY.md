@@ -6,7 +6,8 @@
 ## Threats, Vulnerabilities, and Attacks <a id="threats-attacks-and-vulnerabilities"></a>
 
 * [Threats](threats-attacks-and-vulnerabilities/threats/README.md)
-  * [Threat Actors](threats-attacks-and-vulnerabilities/threats/threat-actors.md)
+  * [Threat Actor Attributes](threats-attacks-and-vulnerabilities/threats/threat-actor-attributes.md)
+  * [Threat Actor Types](threats-attacks-and-vulnerabilities/threats/threat-actors.md)
   * [Malware](threats-attacks-and-vulnerabilities/threats/malware.md)
 * [Vulnerabilities](threats-attacks-and-vulnerabilities/vulnerabilities-1/README.md)
   * [Vulnerability Research](threats-attacks-and-vulnerabilities/vulnerabilities-1/vulnerabilities.md)
