@@ -1,2 +1,2 @@
-# Wireless Protocols
+# Encryption & Authentication Protocols
 
