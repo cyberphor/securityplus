@@ -4,35 +4,39 @@ description: Explain the impact associated with types of vulnerabilities.
 
 # Vulnerability Research
 
-### Race Conditions
+## Business Processes
+
+#### Untrained Users
+
+#### Undocumented Assets
+
+#### Improper Certificate/Key Management
+
+## Poor Architecture Design
+
+## Poor System Design
 
 ### Improper Input Handling
 
+### Race Conditions
+
 ### Improper Error Handling
-
-### Misconfigurations
-
-### Improperly Configured Accounts
-
-### Default Configurations
-
-### Resource Exhaustion
-
-### Untrained Users
 
 ### Memory/Buffer Vulnerabilities
 
-### Business Processes
+#### 
 
-### Undocumented Assets
+### Resource Exhaustion
 
-### Weak Cipher Suites/Implementations
+## Misconfigurations
 
-### Poor Architecture Design
+### Default Configurations
 
-### Zero-Days
+### Accounts
 
-### Improper Certificate/Key Management
+### Cipher Suites
+
+### 
 
 
 
