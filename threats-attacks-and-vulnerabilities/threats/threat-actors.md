@@ -1,3 +1,7 @@
+---
+description: Explain threat actor types and attributes.
+---
+
 # Threat Actors
 
 ## Attributes
