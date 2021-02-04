@@ -8,7 +8,8 @@
 * [Threats](threats-attacks-and-vulnerabilities/threat-actor-attributes.md)
 * [Vulnerabilities](threats-attacks-and-vulnerabilities/vulnerabilities-1/README.md)
   * [Vulnerability Research](threats-attacks-and-vulnerabilities/vulnerabilities-1/vulnerabilities.md)
-  * [Vulnerability Discovery](threats-attacks-and-vulnerabilities/vulnerabilities-1/vulnerability-discovery.md)
+  * [Vulnerability Discovery](threats-attacks-and-vulnerabilities/vulnerabilities-1/vulnerability-discovery/README.md)
+    * [Penetration Testing](threats-attacks-and-vulnerabilities/vulnerabilities-1/vulnerability-discovery/penetration-testing.md)
 * [Attacks](threats-attacks-and-vulnerabilities/attacks/README.md)
   * [Wireless Communications](threats-attacks-and-vulnerabilities/attacks/wireless-attacks.md)
   * [Social Engineering](threats-attacks-and-vulnerabilities/attacks/social-engineering.md)
@@ -16,7 +17,6 @@
   * [Services & Applications](threats-attacks-and-vulnerabilities/attacks/application-service-attacks.md)
 * [Scanning](threats-attacks-and-vulnerabilities/scanning.md)
 * [Malware](threats-attacks-and-vulnerabilities/malware.md)
-* [Penetration Testing](threats-attacks-and-vulnerabilities/penetration-testing.md)
 
 ## Technologies and Tools
 
