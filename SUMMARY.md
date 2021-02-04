@@ -61,7 +61,7 @@
 
 * [Concepts](cryptography/untitled.md)
 * [Algorithms](cryptography/algorithms.md)
-* [Protocols](cryptography/protocols.md)
+* [Wireless Protocols](cryptography/protocols.md)
 * [Public Key Infrastructure](cryptography/public-key-infrastructure/README.md)
   * [Concepts](cryptography/public-key-infrastructure/concepts.md)
   * [Components](cryptography/public-key-infrastructure/components.md)
