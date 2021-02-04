@@ -30,12 +30,14 @@
 ## Architecture and Design
 
 * [Frameworks & Guides](architecture-and-design/untitled.md)
+* [Cloud & Virtualization](architecture-and-design/cloud-and-virtualization-security.md)
+* [Physical Security](architecture-and-design/physical-security.md)
 * [Network Design](architecture-and-design/network-architecture.md)
 * [System Design](architecture-and-design/system-security/README.md)
-  * [Application Security](architecture-and-design/system-security/application-security.md)
   * [System Development](architecture-and-design/system-security/system-deployment.md)
+  * [Application Security](architecture-and-design/system-security/application-security.md)
+  * [Automation](architecture-and-design/system-security/automation.md)
 * [Embedded Systems](architecture-and-design/embedded-systems.md)
-* [Cloud & Virtualization](architecture-and-design/cloud-and-virtualization-security.md)
 
 ## Identity and Access Management
 
