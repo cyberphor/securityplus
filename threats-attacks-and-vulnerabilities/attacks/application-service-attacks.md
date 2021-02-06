@@ -16,7 +16,7 @@ A Denial-of-Service \(DoS\) is when an attacker prevents a resource from being a
 
 #### Distributed Denial-of-Service 
 
-The difference between a DoS and Distributed DoS \(DDoS\) attack are the number of attackers. A DDoS is when multiple attackers are preventing a resource from being available. The most common DDoS scenario is when an attacker is able to successfully compromise and enlist several thousand computers 
+The difference between a DoS and Distributed DoS \(DDoS\) attack are the number of attackers. A DDoS is when multiple attackers are preventing a resource from being available. The most common DDoS scenario is when a _botnet_ is able to take a website offline.  
 
 #### Man-in-the-Middle
 
