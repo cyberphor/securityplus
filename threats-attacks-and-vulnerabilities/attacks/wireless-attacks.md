@@ -22,6 +22,8 @@ description: Compare and contrast types of attacks.
 
 ### Disassociation
 
+### Amplification  
+
 ## Bluetooth
 
 ### Bluejacking

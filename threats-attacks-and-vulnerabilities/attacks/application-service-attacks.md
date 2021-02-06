@@ -24,9 +24,7 @@ The difference between a DoS and Distributed DoS \(DDoS\) attack are the number 
 
 ![](../../.gitbook/assets/014-hacker.png)
 
-#### 
-
-#### Amplification
+A Man-in-the-Middle \(MiTM\) attack is when someone is able to position themselves between two computers communicating with each other. By inserting themselves into the mix, they are able to conduct surveillance and/or manipulate data. For example,  
 
 ### Protocol-based Attacks
 
