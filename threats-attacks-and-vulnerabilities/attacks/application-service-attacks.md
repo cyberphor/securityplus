@@ -22,17 +22,19 @@ The difference between a DoS and Distributed DoS \(DDoS\) attack are the number 
 
 ![](../../.gitbook/assets/014-hacker.png)
 
-A Man-in-the-Middle \(MiTM\) attack is when someone is able to position themselves between two computers communicating with each other to conduct surveillance and/or manipulate data. In the physical world, this may involve an attacker intercepting mail and changing the source address \(imagine if it was a love-letter from you to someone you admire\). In cyberspace, this would involve an attacker intercepting a query and responding with the wrong answer. I cover more specific examples like ARP and DNS Poisoning shortly. 
+A Man-in-the-Middle \(MiTM\) attack is when someone is able to position themselves between two computers on the network to conduct surveillance and/or manipulate data. In the physical world, this may look like an attacker intercepting mail and changing the source address \(imagine if it was a love-letter from you to someone you admire\). Examples in cyberspace would be ARP and DNS Poisoning. 
 
-### ARP Poisoning
+#### ARP Poisoning
 
-### DNS Poisoning
+#### DNS Poisoning
+
+### Spoofing
 
 ![Spoofing is when attackers disguise themselves as someone trustworthy.](../../.gitbook/assets/spoofing.png)
 
-### MAC Spoofing
+#### MAC Spoofing
 
-### IP Spoofing
+#### IP Spoofing
 
 ## Within Systems
 
