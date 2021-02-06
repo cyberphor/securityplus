@@ -1,2 +1,2 @@
-# Frameworks, Best Practices, and Configuration Guides
+# Frameworks & Guides
 
