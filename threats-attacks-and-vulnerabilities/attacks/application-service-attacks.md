@@ -8,35 +8,31 @@ Attacks against services/applications seek to disrupt or manipulate client-serve
 
 ## Between Systems
 
-### Generic Attacks
-
-#### Denial of Service
+### Denial of Service
 
 ![](../../.gitbook/assets/botnet.png)
 
 A Denial-of-Service \(DoS\) is when an attacker prevents a resource from being available. One example of a DoS attack is flooding a server with network traffic, overwhelming it's memory and/or computing capabilities. Another more low-tech example is spilling coffee on it. By causing the server to short-circuit, the attacker has caused a DoS. 
 
-#### Distributed Denial-of-Service 
+### Distributed Denial-of-Service 
 
 The difference between a DoS and Distributed DoS \(DDoS\) attack are the number of attackers. A DDoS is when multiple attackers are preventing a resource from being available. The most common DDoS scenario is when a _botnet_ is able to take a website offline.  
 
-#### Man-in-the-Middle
+### Man-in-the-Middle
 
 ![](../../.gitbook/assets/014-hacker.png)
 
-A Man-in-the-Middle \(MiTM\) attack is when someone is able to position themselves between two computers communicating with each other. By inserting themselves into the mix, they are able to conduct surveillance and/or manipulate data. For example,  
+A Man-in-the-Middle \(MiTM\) attack is when someone is able to position themselves between two computers communicating with each other to conduct surveillance and/or manipulate data. In the physical world, this may involve an attacker intercepting mail and changing the source address \(imagine if it was a love-letter from you to someone you admire\). In cyberspace, this would involve an attacker intercepting a query and responding with the wrong answer. I cover more specific examples like ARP and DNS Poisoning shortly. 
 
-### Protocol-based Attacks
+### ARP Poisoning
+
+### DNS Poisoning
 
 ![Spoofing is when attackers disguise themselves as someone trustworthy.](../../.gitbook/assets/spoofing.png)
 
-#### MAC Spoofing
+### MAC Spoofing
 
-#### ARP Poisoning
-
-#### IP Spoofing
-
-#### DNS Poisoning
+### IP Spoofing
 
 ## Within Systems
 
