@@ -4,27 +4,29 @@ description: Compare and contrast types of attacks.
 
 # Wireless Communications
 
-## Replay
-
-## IV
-
-## Evil Twin
-
 ## Rogue APs
 
-## Jamming
+### Evil Twin
 
-## WPS
+## Replay
 
-## Bluejacking
+### IV
 
-## Bluesnarfing
-
-## RFID
+### WPS
 
 ## NFC
 
-## Disassociation
+### RFID
+
+### Jamming
+
+### Disassociation
+
+## Bluetooth
+
+### Bluejacking
+
+### Bluesnarfing
 
 
 
