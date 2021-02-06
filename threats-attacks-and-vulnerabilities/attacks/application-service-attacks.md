@@ -12,7 +12,11 @@ Attacks against services/applications seek to disrupt or manipulate client-serve
 
 #### Denial of Service
 
-#### Distributed Denial-of-Service
+A Denial-of-Service \(DoS\) is when an attacker prevents a resource from being available. One example of a DoS attack is flooding a server with network traffic, overwhelming it's memory and/or computing capabilities. Another more low-tech example is spilling coffee on it. By causing the server to short-circuit, the attacker has caused a DoS. 
+
+#### Distributed Denial-of-Service 
+
+The difference between a DoS and Distributed DoS \(DDoS\) attack are the number of attackers. A DDoS is when multiple attackers are preventing a resource from being available. The most common DDoS scenario is when an attacker is able to successfully compromise and enlist several thousand computers 
 
 #### Man-in-the-Middle
 
