@@ -26,7 +26,11 @@ A Man-in-the-Middle \(MiTM\) attack is when someone is able to position themselv
 
 #### ARP Poisoning
 
+The Address Resolution Protocol \(ARP\) helps computers understand what MAC address belongs to a specific IP address. 
+
 #### DNS Poisoning
+
+The Domain Name System \(DNS\) is a service that allows humans to access servers by easy-to-remember names instead of IP address. 
 
 ### Spoofing
 
