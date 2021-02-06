@@ -34,7 +34,11 @@ A Man-in-the-Middle \(MiTM\) attack is when someone is able to position themselv
 
 #### MAC Spoofing
 
+MAC Spoofing is when an attacker is able to clone your MAC address and pose as you on the network. They may want to do this in order to bypass network security controls like MAC address filtering or port security. 
+
 #### IP Spoofing
+
+IP Spoofing is similar to MAC Spoofing albeit it involves Internet Protocol \(IP\) addresses. By spoofing an IP address, an attacker can bypass firewall rules and make attribution of their activity difficult. Although, changing one's IP address is not always malicious. Everyday people will use Virtual Private Networks \(VPNs\) to change their IP address in order to access restricted Internet content. 
 
 ## Within Systems
 
