@@ -29,7 +29,7 @@ A Man-in-the-Middle \(MiTM\) attack is when someone is able to position themselv
 The Address Resolution Protocol \(ARP\) is used to query the network for unknown MAC addresses. Computers need to know this kind of information in order to perform encapsulation and send data across the network. Once a query is answered, the response is cached in a look-up table. Attackers will often attempt to poison or add bogus entries to this look-up table in order to trick the victim into sending data to the wrong destination.  
 
 {% hint style="info" %}
-Encapsulation allows modular computer networking. 
+Encapsulation is when computers add networking information to data before transmitting it.
 {% endhint %}
 
 #### DNS Poisoning
@@ -102,7 +102,7 @@ Click-Jacking is when the attacker gets a user to click on something that appear
 
 ### Man-in-the-Browser
 
-Man-in-the-Browser attacks come from malicious web browser add-ons.
+Man-in-the-Browser attacks are when an an attacker uses web browser extensions to achieve their objectives. For instance, take those popular add-ons that promise to save you money while you shop online. They could also be used to conduct surveillance on you and even allow someone remote access to your computer. 
 
 ### Cross-Site Scripting
 
@@ -128,9 +128,13 @@ Session Hijacking is when the attacker discovers the identifier \(ID\) of a user
 
 ### SQL Injection
 
-SQL Injection is when an attacker sends SQL database commands as input to an application. Websites consist of a front-end and a back-end. What you see in your browser represents the front. What resides on the web server is the back. Back-end components of a web server often include a program used to serve files \(i.e., web pages\) and a database to house raw data \(usernames, passwords, etc.\). An attacker using SQL Injection knows this and will use this to his advantage. Instead of querying just for web pages, she may query for both web pages and passwords. The vulnerability she is exploiting resides between how the front-end of a web server communicates with the back-end. To explain, look at the command below.
+SQL Injection is when an attacker sends Structured Query Language commands as input to a website. Most web applications consist of a front-end and back-end. The front-end is what you see in your browser. The back-end is normally a database. If an attacker is clever enough, they can manipulate and retrieve sensitive information like usernames and passwords from the back-end through the front-end. Now, imagine authenticating to a web application with the username `victor` and password `password123`. The front-end will two input fields, while the back-end will process the data supplied using the SQL command below.
 
-`Angelina Jolie' or 1=1; --`
+{% hint style="info" %}
+A single database will have multiple tables that resemble Microsoft Excel spreadsheets \(they all have rows and columns\). 
+{% endhint %}
 
-`SELECT * FROM users WHERE username = admin or 1=1;`
+`SELECT * FROM user WHERE username = 'victor' AND password = 'password123';`
+
+In plain English, this SQL command is asking the database to return the row of data where the `username` column is equal to `victor` and the `password` column is equal to `password123`. 
 
