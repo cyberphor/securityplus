@@ -72,6 +72,8 @@ Tailgating and Shoulder Surfing are attacks against a single person. Hoaxes, wat
 
 ### Hoaxes
 
+![](../../.gitbook/assets/fake-news.png)
+
 The Online Etymology Dictionary suggests the word "hoax" comes from "hocus-pocus" or  "the tricks of a magician." In cybersecurity, hoaxes are simply fabrications of the truth \(usually disseminated via email\). They serve to create fear, uncertainty, and doubt. Be vigilant of misinformation. The last thing you want is someone being scared into calling the police over a bogus bomb-threat or getting tricked into disabling their anti-virus program because they were told it's spying on them. 
 
 ### Watering Holes
