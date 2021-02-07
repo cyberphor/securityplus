@@ -78,7 +78,7 @@ Attackers will routinely refactor the malware they develop to evade detection. F
 
 ### Domain Squatting
 
-Domain Squatting is when an attacker registers a domain name of a topic that is expected to garner a lot of attention. To explain, say there's a rumor that Angelina Jolie will run for president in 2024. Someone may then buy `www.angelina4president2024.com` expecting to get a return-on-investment in the future.
+Domain Squatting is when an attacker registers a domain name of a topic that is expected to garner a lot of attention. To explain, say there's a rumor that Angelina Jolie will run for president in 2024. Someone may then buy `www.angelina4president2024.com` expecting to get a hefty return-on-investment in the future.
 
 ### Domain Hijacking
 
@@ -124,17 +124,21 @@ Session Hijacking is when the attacker discovers the identifier \(ID\) of a user
 
 ### SQL Injection
 
-SQL Injection is when an attacker sends Structured Query Language commands as input to a website. Most web applications consist of a front-end and back-end. The front-end is what you see in your browser. The back-end is normally a database. If an attacker is clever enough, they can manipulate and retrieve sensitive information like usernames and passwords from the back-end through the front-end. For example, consider authenticating to a web application with the username `victor` and password `password123`. The front-end might display two input fields, while the back-end processes the data supplied using the SQL command below.
+SQL Injection is when an attacker sends Structured Query Language \(SQL\) commands as input to a website. SQL is a language for programming databases. Most web applications consist of a database, or back-end, and front-end \(what you in your browser\). If an attacker is clever enough, they can manipulate and retrieve sensitive information like usernames and passwords from the back-end through the front-end. For example, consider authenticating to a web application with the username `victor` and password `password123`. The front-end will display two input fields, while the back-end processes the data supplied using the SQL command below.
 
 {% hint style="info" %}
 A single database will have multiple tables that resemble Microsoft Excel spreadsheets \(they all have rows and columns\). 
 {% endhint %}
 
-`SELECT * FROM user WHERE username = 'victor' AND password = 'password123';`
+`"SELECT * FROM users WHERE username = '$UserName' AND password = '$PassWord'";` 
 
-In plain English, this SQL command is asking the database to return the row of data where the `username` column is equal to `victor` and the `password` column is equal to `password123`. Now, imagine if instead of `password123`, someone supplied `password123' or 1=1; --` as the password. The SQL command above would then become the one below. 
+If translated to plain English, this command would be saying, "Please select/return the row of data from the `users` data table where the `username` and `password` columns are equal to what is provided." In other words, if I provided `victor` and `peanutbutter` as my username and password, the back-end database would be presented with the SQL command sentence below.
 
-`SELECT * FROM user WHERE username = 'victor' and 'password123'' or 1=1; --`
+`"SELECT * FROM user WHERE username = 'victor' AND password = 'peanutbutter'";`
+
+Now, imagine if instead of `peanutbutter`, I supplied `peanutbutter' 1=1 --` as my password. The back-end database would then see this...
+
+`"SELECT * FROM user WHERE username = 'victor' and 'peanutbutter'' 1=1 --";`
 
 
 
