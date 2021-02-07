@@ -26,7 +26,7 @@ A Man-in-the-Middle \(MiTM\) attack is when someone is able to position themselv
 
 #### ARP Poisoning
 
-The Address Resolution Protocol \(ARP\) helps computers understand what MAC address belongs to a specific IP address. 
+The Address Resolution Protocol \(ARP\) helps computers understand which MAC address belongs to a specific IP address. After an ARP request is answered, it gets saved in a cache. ARP Poisoning is when an attacker responds...
 
 #### DNS Poisoning
 
