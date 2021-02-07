@@ -38,17 +38,23 @@ Leveraging an existing relationship to get someone to download unauthorized soft
 
 Gaining physical access to a building after asking for directions to the bathroom. 
 
-## Impersonation
-
-### Phishing
+## Phishing
 
 ![](../../.gitbook/assets/019-phishing.png)
 
-#### Spear Phishing
+Phishing attacks are when someone uses technology to lure someone else into a trap or disclosing sensitive information. Attackers will often automate this process and spam thousands of people in hopes of getting at least a handful of victims. 
 
-#### Whaling
+### Spear Phishing
 
-#### Vishing
+Spear Phishing is when the attacker targets a specific person. For example, you were the target of a Spear Phishing attack if you ever got an bogus email that referenced unique things about you and your interests.  
+
+### Whaling
+
+Whaling is when the attacker targets a specific person because of their status or position. Imagine what would happen if the CEO of your organization was the victim of a Whaling attack. Do they have access to sensitive information that shouldn't be disclosed? 
+
+### Vishing
+
+Vishing is phishing over the phone. The attacker is using their voice, tone, and slang to be more convincing than an what they would be in a email. 
 
 ## Proximity-based Attacks
 
