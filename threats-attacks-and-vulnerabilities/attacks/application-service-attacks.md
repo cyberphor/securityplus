@@ -26,11 +26,15 @@ A Man-in-the-Middle \(MiTM\) attack is when someone is able to position themselv
 
 #### ARP Poisoning
 
-The Address Resolution Protocol \(ARP\) helps computers understand what MAC address belongs to a specific IP address. 
+The Address Resolution Protocol \(ARP\) is used to query the network for unknown MAC addresses. Computers need to know this kind of information in order to perform encapsulation and send data across the network. Once a query is answered, the response is cached in a look-up table. Attackers will often attempt to poison or add bogus entries to this look-up table in order to trick the victim into sending data to the wrong destination.  
+
+{% hint style="info" %}
+Encapsulation is when computers add networking information to data before transmitting it. De-encapsulation is when computers remove the same networking information to access the data transmitted. 
+{% endhint %}
 
 #### DNS Poisoning
 
-The Domain Name System \(DNS\) is a service that allows humans to access servers by easy-to-remember names instead of IP address. 
+The Domain Name System \(DNS\) is a service that allows you to use easy-to-remember computer/website names instead of IP addresses \(like a phone-book\). DNS Poisoning is when an attacker gets a computer to use the wrong IP address for a specific domain name. For example, I use `54.156.193.108` to stream and watch content from `www.netflix.com`. If someone was able to swap out `54.156.193.108` with 146.185.170.222 then my computer would then be communicating with a malware command & control server.  
 
 ### Spoofing
 
@@ -42,7 +46,7 @@ MAC Spoofing is when an attacker is able to clone your MAC address and pose as y
 
 #### IP Spoofing
 
-IP Spoofing is similar to MAC Spoofing albeit it involves Internet Protocol \(IP\) addresses. By spoofing an IP address, an attacker can bypass firewall rules and make attribution of their activity difficult. Although, changing one's IP address is not always malicious. Everyday people will use Virtual Private Networks \(VPNs\) to change their IP address in order to access restricted Internet content. 
+IP Spoofing is similar to MAC Spoofing albeit it involves IP addresses. By spoofing an IP address, an attacker can bypass firewall rules and make attribution of their activity difficult. Although, changing one's IP address is not always malicious. Everyday people will use Virtual Private Networks \(VPNs\) to change their IP address in order to access restricted Internet content. 
 
 ## Within Systems
 
@@ -98,7 +102,7 @@ Click-Jacking is when the attacker gets a user to click on something that appear
 
 ### Man-in-the-Browser
 
-Man-in-the-Browser attacks come from malicious web browser add-ons.
+Man-in-the-Browser attacks are when an an attacker uses web browser extensions to achieve their objectives. For instance, take those popular add-ons that promise to save you money while you shop online. They could also be used to conduct surveillance on you and even allow someone remote access to your computer. 
 
 ### Cross-Site Scripting
 
@@ -124,9 +128,17 @@ Session Hijacking is when the attacker discovers the identifier \(ID\) of a user
 
 ### SQL Injection
 
-SQL Injection is when an attacker sends SQL database commands as input to a website. Websites consist of a front-end and a back-end. What you see in your browser represents the front. What resides on the web server is the back. Back-end components of a web server often include a program used to serve files \(i.e., web pages\) and a database to house raw data \(usernames, passwords, etc.\). An attacker using SQL Injection knows this and will use this to his advantage. Instead of querying just for web pages, she may query for both web pages and passwords. The vulnerability she is exploiting resides between how the front-end of a web server communicates with the back-end. To explain, look at the command below.
+SQL Injection is when an attacker sends Structured Query Language commands as input to a website. Most web applications consist of a front-end and back-end. The front-end is what you see in your browser. The back-end is normally a database. If an attacker is clever enough, they can manipulate and retrieve sensitive information like usernames and passwords from the back-end through the front-end. For example, consider authenticating to a web application with the username `victor` and password `password123`. The front-end might display two input fields, while the back-end processes the data supplied using the SQL command below.
 
-`Angelina Jolie' or 1=1; --`
+{% hint style="info" %}
+A single database will have multiple tables that resemble Microsoft Excel spreadsheets \(they all have rows and columns\). 
+{% endhint %}
 
-`SELECT * FROM users WHERE username = admin or 1=1;`
+`SELECT * FROM user WHERE username = 'victor' AND password = 'password123';`
+
+In plain English, this SQL command is asking the database to return the row of data where the `username` column is equal to `victor` and the `password` column is equal to `password123`. Now, imagine if instead of `password123`, someone supplied `password123' or 1=1; --` as the password. The SQL command above would then become the one below. 
+
+`SELECT * FROM user WHERE username = 'victor' and 'password123'' or 1=1; --`
+
+
 
