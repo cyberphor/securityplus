@@ -148,11 +148,11 @@ Input Validation scrubs the data supplied by users for bad characters or symbols
 {% endtab %}
 
 {% tab title="Parameterized Queries" %}
-Parameterized Queries is a fancy way of describing how developers should separate code and data.
+Parameterized Queries is a fancy way of describing how database developers should separate code and data in the front-end of a web application. 
 {% endtab %}
 
 {% tab title="Stored Procedures" %}
-Stored Procedures help defeat most SQL Injection attacks by...
+Stored Procedures are the same thing as Parameterized Queries albeit they are stored within the database or back-end instead of the front-end. 
 {% endtab %}
 {% endtabs %}
 
