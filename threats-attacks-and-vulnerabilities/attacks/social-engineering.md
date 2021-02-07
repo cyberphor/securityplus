@@ -64,11 +64,15 @@ Tailgating is when someone follows closely behind you in order to avoid having t
 
 ### Shoulder Surfing
 
-Shoulder Surfing is when someone looks over your shoulder to gather sensitive information like PINs and passwords. An attacker may also be able to collect proprietary information or plans your organization has for the future. 
+Shoulder Surfing is when someone looks over your shoulder to gather sensitive information like PINs and passwords. An attacker may also be able to collect proprietary information like trade secrets, intellectual property, and plans your organization has for the future. 
 
 ## Community-based Attacks
 
+Tailgating and Shoulder Surfing are attacks against a single person. Hoaxes, watering hole attacks, and dumpster diving target the organization as a whole. 
+
 ### Hoaxes
+
+The Online Etymology Dictionary suggests the word "hoax" comes from "hocus-pocus" or  "the tricks of a magician." In cybersecurity, hoaxes are simply fabrications of the truth \(usually disseminated via email\). They serve to create fear, uncertainty, and doubt. Be vigilant of misinformation. The last thing you want is someone being scared into calling the police over a bogus bomb-threat or getting tricked into disabling their anti-virus program because they were told it's spying on them. 
 
 ### Watering Holes
 
