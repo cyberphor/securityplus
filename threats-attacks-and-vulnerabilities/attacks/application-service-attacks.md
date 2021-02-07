@@ -128,7 +128,7 @@ Session Hijacking is when the attacker discovers the identifier \(ID\) of a user
 
 ### SQL Injection
 
-SQL Injection is when an attacker sends Structured Query Language commands as input to a website. Most web applications consist of a front-end and back-end. The front-end is what you see in your browser. The back-end is normally a database. If an attacker is clever enough, they can manipulate and retrieve sensitive information like usernames and passwords from the back-end through the front-end. Now, imagine authenticating to a web application with the username `victor` and password `password123`. The front-end will two input fields, while the back-end will process the data supplied using the SQL command below.
+SQL Injection is when an attacker sends Structured Query Language commands as input to a website. Most web applications consist of a front-end and back-end. The front-end is what you see in your browser. The back-end is normally a database. If an attacker is clever enough, they can manipulate and retrieve sensitive information like usernames and passwords from the back-end through the front-end. For example, consider authenticating to a web application with the username `victor` and password `password123`. The front-end might display two input fields, while the back-end processes the data supplied using the SQL command below.
 
 {% hint style="info" %}
 A single database will have multiple tables that resemble Microsoft Excel spreadsheets \(they all have rows and columns\). 
@@ -136,5 +136,9 @@ A single database will have multiple tables that resemble Microsoft Excel spread
 
 `SELECT * FROM user WHERE username = 'victor' AND password = 'password123';`
 
-In plain English, this SQL command is asking the database to return the row of data where the `username` column is equal to `victor` and the `password` column is equal to `password123`. 
+In plain English, this SQL command is asking the database to return the row of data where the `username` column is equal to `victor` and the `password` column is equal to `password123`. Now, imagine if instead of `password123`, someone supplied `password123' or 1=1; --` as the password. The SQL command above would then become the one below. 
+
+`SELECT * FROM user WHERE username = 'victor' and 'password123'' or 1=1; --`
+
+
 
