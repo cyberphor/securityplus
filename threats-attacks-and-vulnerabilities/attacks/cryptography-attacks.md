@@ -4,8 +4,6 @@ description: Compare and contrast types of attacks.
 
 # Password Guessing
 
-## Encryption & Hashing
-
 ## Online vs Offline Attacks 
 
 ### Online Attacks
