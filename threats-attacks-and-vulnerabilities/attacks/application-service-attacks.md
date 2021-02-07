@@ -4,7 +4,7 @@ description: Compare and contrast types of attacks.
 
 # Services & Applications
 
-Attacks against services/applications seek to disrupt or manipulate client-server communications. They occur between systems, within systems, and against the web. As a cybersecurity professional, you must be able to recognize them and reduce their impact.
+Attacks against services and applications seek to disrupt/manipulate client-server communications. They occur between systems, within systems, and against the web. As a cybersecurity professional, you must be able to recognize them and reduce their impact.
 
 ## Between Systems
 
@@ -34,7 +34,7 @@ Encapsulation is when computers add networking information to data before transm
 
 #### DNS Poisoning
 
-The Domain Name System \(DNS\) is a service that allows you to use easy-to-remember computer/website names instead of IP addresses \(like a phone-book\). DNS Poisoning is when an attacker gets a computer to use the wrong IP address for a specific domain name. For example, I use `54.156.193.108` to stream and watch content from `www.netflix.com`. If someone was able to swap out `54.156.193.108` with 146.185.170.222 then my computer would then be communicating with a malware command & control server.  
+The Domain Name System \(DNS\) is a service that allows you to use easy-to-remember computer/website names instead of IP addresses \(like a phone-book\). DNS Poisoning is when an attacker gets a computer to use the wrong IP address for a specific domain name. For example, I use `54.156.193.108` to stream and watch content from `www.netflix.com`. If someone was able to swap out `54.156.193.108` with `146.185.170.222,` any time I try to access `www.netflix.com` my computer would be communicating with a well-known malware command & control server.  
 
 ### Spoofing
 
@@ -42,7 +42,7 @@ The Domain Name System \(DNS\) is a service that allows you to use easy-to-remem
 
 #### MAC Spoofing
 
-MAC Spoofing is when an attacker is able to clone your MAC address and pose as you on the network. They may want to do this in order to bypass network security controls like MAC address filtering or port security. 
+MAC Spoofing is when an attacker is able to clone your MAC address and impersonate you on the network. They may want to do this in order to bypass network security controls like MAC address filtering and port security. 
 
 #### IP Spoofing
 
@@ -52,13 +52,9 @@ IP Spoofing is similar to MAC Spoofing albeit it involves IP addresses. By spoof
 
 ### Pass-the-Hash
 
-Pass-the-Hash is when an attacker uses the hash of a victim's password instead of the actual credential to login. By doing so, the attacker eliminates the need to guess the plain-text version. An attacker will be able to learn a victim's password hash if it unencrypted and stored or sent across the network.
+Pass-the-Hash \(PTH\) is when an attacker uses the hash of a victim's password instead of the actual credential to login. By doing so, the attacker eliminates the need to guess the plain-text version. An attacker will be able to learn a victim's password hash if it unencrypted and stored or sent across the network.
 
 ![PTH is when an attacker authenticates with a hash instead of a password.](../../.gitbook/assets/012-hash.png)
-
-### Zero-Days
-
-Zero-Days are vulnerabilities that do not have a patch yet. The name alludes to the number of days the software/hardware developer has had to address it.
 
 ### Buffer Overflow
 
@@ -82,7 +78,7 @@ Attackers will routinely refactor the malware they develop to evade detection. F
 
 ### Domain Squatting
 
-Domain Squatting is when an attacker registers a domain name of a topic that is expected to garner a lot of attention. To explain, say there's a rumor that Angelina Jolie will run for president in 2024. Someone may then buy `www.angelina4president2024.com` expecting to get a return-on-investment in the future.
+Domain Squatting is when an attacker registers a domain name of a topic that is expected to garner a lot of attention. To explain, say there's a rumor that Angelina Jolie will run for president in 2024. Someone may then buy `www.angelina4president2024.com` expecting to get a hefty return-on-investment in the future.
 
 ### Domain Hijacking
 
@@ -128,17 +124,35 @@ Session Hijacking is when the attacker discovers the identifier \(ID\) of a user
 
 ### SQL Injection
 
-SQL Injection is when an attacker sends Structured Query Language commands as input to a website. Most web applications consist of a front-end and back-end. The front-end is what you see in your browser. The back-end is normally a database. If an attacker is clever enough, they can manipulate and retrieve sensitive information like usernames and passwords from the back-end through the front-end. For example, consider authenticating to a web application with the username `victor` and password `password123`. The front-end might display two input fields, while the back-end processes the data supplied using the SQL command below.
+SQL Injection is when an attacker sends Structured Query Language \(SQL\) commands as input to a website. SQL is a language for programming databases. Most web applications consist of a database, or back-end, and front-end \(what you in your browser\). If an attacker is clever enough, they can manipulate and retrieve sensitive information like usernames and passwords from the back-end through the front-end. For example, consider authenticating to a web application with the username `victor` and password `password123`. The front-end will display two input fields, while the back-end processes the data supplied using the SQL command below.
 
 {% hint style="info" %}
 A single database will have multiple tables that resemble Microsoft Excel spreadsheets \(they all have rows and columns\). 
 {% endhint %}
 
-`SELECT * FROM user WHERE username = 'victor' AND password = 'password123';`
+`"SELECT * FROM users WHERE username = '$UserName' AND password = '$PassWord'";` 
 
-In plain English, this SQL command is asking the database to return the row of data where the `username` column is equal to `victor` and the `password` column is equal to `password123`. Now, imagine if instead of `password123`, someone supplied `password123' or 1=1; --` as the password. The SQL command above would then become the one below. 
+In layman's terms, this command is saying, "Please select/return the row of data from the `users` data table where the `username` and `password` columns are equal to what is provided." In other words, if I provided `victor` and `peanutbutter` as my username and password, the back-end database would be presented with the SQL command sentence below.
 
-`SELECT * FROM user WHERE username = 'victor' and 'password123'' or 1=1; --`
+`"SELECT * FROM user WHERE username = 'victor' AND password = 'peanutbutter'";`
 
+Now, imagine if instead of `peanutbutter`, I supplied `peanutbutter' OR 1=1` as my password. The back-end database would then see this...
 
+`"SELECT * FROM user WHERE username = 'victor' AND password = 'peanutbutter'' OR 1=1";`
+
+The command would then be saying, "Please select/return the row of data from the users data table where the username is `victor` and the password is `peanutbutter` or where `1=1`." In response, the back-end database will disclose everything from the users data table. This is because `1=1` is always true and the database will return data where the provided SQL command equates to true. As a cybersecurity professional, be aware of SQL Injections and ensure to impress upon your developers to use Input Validation, Parameterized Queries, and Stored Procedures when designing web applications. 
+
+{% tabs %}
+{% tab title="Input Validation" %}
+Input Validation scrubs the data supplied by users for bad characters or symbols. Examples of bad symbols are quotes and the equal sign. A user should hardly ever be allowed to provide these as input to a web application.  
+{% endtab %}
+
+{% tab title="Parameterized Queries" %}
+Parameterized Queries is a fancy way of describing how database developers should separate code and data in the front-end of a web application. 
+{% endtab %}
+
+{% tab title="Stored Procedures" %}
+Stored Procedures are the same thing as Parameterized Queries albeit they are stored within the database or back-end instead of the front-end. 
+{% endtab %}
+{% endtabs %}
 

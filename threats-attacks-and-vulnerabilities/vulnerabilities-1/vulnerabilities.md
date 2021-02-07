@@ -20,6 +20,10 @@ description: Explain the impact associated with types of vulnerabilities.
 
 ### Race Conditions
 
+### Zero-Days
+
+Zero-Days are vulnerabilities that do not have a patch yet. The name alludes to the number of days the software/hardware developer has had to address it.
+
 ### Improper Error Handling
 
 ### Memory/Buffer Vulnerabilities
