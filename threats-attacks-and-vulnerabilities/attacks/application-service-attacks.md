@@ -132,13 +132,27 @@ A single database will have multiple tables that resemble Microsoft Excel spread
 
 `"SELECT * FROM users WHERE username = '$UserName' AND password = '$PassWord'";` 
 
-If translated to plain English, this command would be saying, "Please select/return the row of data from the `users` data table where the `username` and `password` columns are equal to what is provided." In other words, if I provided `victor` and `peanutbutter` as my username and password, the back-end database would be presented with the SQL command sentence below.
+In layman's terms, this command is saying, "Please select/return the row of data from the `users` data table where the `username` and `password` columns are equal to what is provided." In other words, if I provided `victor` and `peanutbutter` as my username and password, the back-end database would be presented with the SQL command sentence below.
 
 `"SELECT * FROM user WHERE username = 'victor' AND password = 'peanutbutter'";`
 
-Now, imagine if instead of `peanutbutter`, I supplied `peanutbutter' 1=1 --` as my password. The back-end database would then see this...
+Now, imagine if instead of `peanutbutter`, I supplied `peanutbutter' OR 1=1` as my password. The back-end database would then see this...
 
-`"SELECT * FROM user WHERE username = 'victor' and 'peanutbutter'' 1=1 --";`
+`"SELECT * FROM user WHERE username = 'victor' AND password = 'peanutbutter'' OR 1=1";`
 
+The command would then be saying, "Please select/return the row of data from the users data table where the username is `victor` and the password is `peanutbutter` or where `1=1`." In response, the back-end database will disclose everything from the users data table. This is because `1=1` is always true and the database will return data where the provided SQL command equates to true. As a cybersecurity professional, be aware of SQL Injections and ensure to impress upon your developers to use Input Validation, Parameterized Queries, and Stored Procedures when designing web applications. 
 
+{% tabs %}
+{% tab title="Input Validation" %}
+Input Validation scrubs the data supplied by users for bad characters or symbols. Examples of bad symbols are quotes and the equal sign. A user should hardly ever be allowed to provide these as input to a web application.  
+{% endtab %}
+
+{% tab title="Parameterized Queries" %}
+Parameterized Queries is a fancy way of describing how developers should separate code and data.
+{% endtab %}
+
+{% tab title="Stored Procedures" %}
+Stored Procedures help defeat most SQL Injection attacks by...
+{% endtab %}
+{% endtabs %}
 
