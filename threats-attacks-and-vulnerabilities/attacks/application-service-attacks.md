@@ -4,7 +4,7 @@ description: Compare and contrast types of attacks.
 
 # Services & Applications
 
-Attacks against services/applications seek to disrupt or manipulate client-server communications. They occur between systems, within systems, and against the web. As a cybersecurity professional, you must be able to recognize them and reduce their impact.
+Attacks against services and applications seek to disrupt/manipulate client-server communications. They occur between systems, within systems, and against the web. As a cybersecurity professional, you must be able to recognize them and reduce their impact.
 
 ## Between Systems
 
@@ -34,7 +34,7 @@ Encapsulation is when computers add networking information to data before transm
 
 #### DNS Poisoning
 
-The Domain Name System \(DNS\) is a service that allows you to use easy-to-remember computer/website names instead of IP addresses \(like a phone-book\). DNS Poisoning is when an attacker gets a computer to use the wrong IP address for a specific domain name. For example, I use `54.156.193.108` to stream and watch content from `www.netflix.com`. If someone was able to swap out `54.156.193.108` with 146.185.170.222 then my computer would then be communicating with a malware command & control server.  
+The Domain Name System \(DNS\) is a service that allows you to use easy-to-remember computer/website names instead of IP addresses \(like a phone-book\). DNS Poisoning is when an attacker gets a computer to use the wrong IP address for a specific domain name. For example, I use `54.156.193.108` to stream and watch content from `www.netflix.com`. If someone was able to swap out `54.156.193.108` with `146.185.170.222,` any time I try to access `www.netflix.com` my computer would be communicating with a well-known malware command & control server.  
 
 ### Spoofing
 
