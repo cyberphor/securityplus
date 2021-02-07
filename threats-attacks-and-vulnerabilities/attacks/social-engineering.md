@@ -60,7 +60,11 @@ Vishing is phishing over the phone. The attacker is using their voice, tone, and
 
 ### Tailgating
 
+Tailgating is when someone follows closely behind you in order to avoid having to open a door themselves. Organizations will often have physical security controls that require something does not know or have \(like a PIN and badge\). To bypass these obstacles, an attacker might wait for the right person that is innocent and gullible enough to hold the door open for them. 
+
 ### Shoulder Surfing
+
+Shoulder Surfing is when someone looks over your shoulder to gather sensitive information like PINs and passwords. An attacker may also be able to collect proprietary information or plans your organization has for the future. 
 
 ## Community-based Attacks
 
