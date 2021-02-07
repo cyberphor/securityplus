@@ -42,7 +42,7 @@ The Domain Name System \(DNS\) is a service that allows you to use easy-to-remem
 
 #### MAC Spoofing
 
-MAC Spoofing is when an attacker is able to clone your MAC address and pose as you on the network. They may want to do this in order to bypass network security controls like MAC address filtering or port security. 
+MAC Spoofing is when an attacker is able to clone your MAC address and impersonate you on the network. They may want to do this in order to bypass network security controls like MAC address filtering and port security. 
 
 #### IP Spoofing
 
@@ -52,13 +52,9 @@ IP Spoofing is similar to MAC Spoofing albeit it involves IP addresses. By spoof
 
 ### Pass-the-Hash
 
-Pass-the-Hash is when an attacker uses the hash of a victim's password instead of the actual credential to login. By doing so, the attacker eliminates the need to guess the plain-text version. An attacker will be able to learn a victim's password hash if it unencrypted and stored or sent across the network.
+Pass-the-Hash \(PTH\) is when an attacker uses the hash of a victim's password instead of the actual credential to login. By doing so, the attacker eliminates the need to guess the plain-text version. An attacker will be able to learn a victim's password hash if it unencrypted and stored or sent across the network.
 
 ![PTH is when an attacker authenticates with a hash instead of a password.](../../.gitbook/assets/012-hash.png)
-
-### Zero-Days
-
-Zero-Days are vulnerabilities that do not have a patch yet. The name alludes to the number of days the software/hardware developer has had to address it.
 
 ### Buffer Overflow
 
