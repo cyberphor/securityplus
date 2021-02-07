@@ -29,7 +29,7 @@ A Man-in-the-Middle \(MiTM\) attack is when someone is able to position themselv
 The Address Resolution Protocol \(ARP\) is used to query the network for unknown MAC addresses. Computers need to know this kind of information in order to perform encapsulation and send data across the network. Once a query is answered, the response is cached in a look-up table. Attackers will often attempt to poison or add bogus entries to this look-up table in order to trick the victim into sending data to the wrong destination.  
 
 {% hint style="info" %}
-Encapsulation is when computers add networking information to data before transmitting it.
+Encapsulation is when computers add networking information to data before transmitting it. De-encapsulation is when computers remove the same networking information to access the data transmitted. 
 {% endhint %}
 
 #### DNS Poisoning
