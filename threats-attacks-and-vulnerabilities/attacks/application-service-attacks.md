@@ -26,11 +26,15 @@ A Man-in-the-Middle \(MiTM\) attack is when someone is able to position themselv
 
 #### ARP Poisoning
 
-The Address Resolution Protocol \(ARP\) helps computers understand which MAC address belongs to a specific IP address. After an ARP request is answered, it gets saved in a cache. ARP Poisoning is when an attacker responds...
+The Address Resolution Protocol \(ARP\) is used to query the network for unknown MAC addresses. Computers need to know this kind of information in order to perform encapsulation and send data across the network. Once a query is answered, the response is cached in a look-up table. Attackers will often attempt to poison or add bogus entries to this look-up table in order to trick the victim into sending data to the wrong destination.  
+
+{% hint style="info" %}
+Encapsulation allows modular computer networking. 
+{% endhint %}
 
 #### DNS Poisoning
 
-The Domain Name System \(DNS\) is a service that allows humans to access servers by easy-to-remember names instead of IP address. 
+The Domain Name System \(DNS\) is a service that allows you to use easy-to-remember computer/website names instead of IP addresses \(like a phone-book\). DNS Poisoning is when an attacker gets a computer to use the wrong IP address for a specific domain name. For example, I use `54.156.193.108` to stream and watch content from `www.netflix.com`. If someone was able to swap out `54.156.193.108` with 146.185.170.222 then my computer would then be communicating with a malware command & control server.  
 
 ### Spoofing
 
@@ -124,7 +128,7 @@ Session Hijacking is when the attacker discovers the identifier \(ID\) of a user
 
 ### SQL Injection
 
-SQL Injection is when an attacker sends SQL database commands as input to a website. Websites consist of a front-end and a back-end. What you see in your browser represents the front. What resides on the web server is the back. Back-end components of a web server often include a program used to serve files \(i.e., web pages\) and a database to house raw data \(usernames, passwords, etc.\). An attacker using SQL Injection knows this and will use this to his advantage. Instead of querying just for web pages, she may query for both web pages and passwords. The vulnerability she is exploiting resides between how the front-end of a web server communicates with the back-end. To explain, look at the command below.
+SQL Injection is when an attacker sends SQL database commands as input to an application. Websites consist of a front-end and a back-end. What you see in your browser represents the front. What resides on the web server is the back. Back-end components of a web server often include a program used to serve files \(i.e., web pages\) and a database to house raw data \(usernames, passwords, etc.\). An attacker using SQL Injection knows this and will use this to his advantage. Instead of querying just for web pages, she may query for both web pages and passwords. The vulnerability she is exploiting resides between how the front-end of a web server communicates with the back-end. To explain, look at the command below.
 
 `Angelina Jolie' or 1=1; --`
 
