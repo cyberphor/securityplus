@@ -4,7 +4,7 @@ description: Compare and contrast types of attacks.
 
 # Password Guessing
 
-There's no such thing as password _cracking_. Either the attacker correctly guesses your password or they're able to uncover it through Social Engineering. Password guessing includes Brute Force, Dictionary, and Hybrid attacks. Each method represents how much the attacker is willing to invest in performing reconnaissance beforehand. Regardless, their success largely depends on if their guessing efforts are online or offline. 
+There's no such thing as password _cracking_. Either the attacker correctly guesses your password or they're able to uncover it using tactics like Social Engineering. Password guessing includes Brute Force, Dictionary, and Hybrid attacks. Each method represents how much the attacker is willing to invest in performing reconnaissance beforehand. Regardless, their success largely depends on if their guessing efforts are online or offline. 
 
 ## Online vs Offline Guessing
 
