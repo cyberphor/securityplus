@@ -78,7 +78,11 @@ The Online Etymology Dictionary suggests the word "hoax" comes from "hocus-pocus
 
 ### Watering Holes
 
+In the physical world, watering holes are where different animals congregate to consume water. A watering hole in cyberspace may be a file server or internal web portal, somewhere where people congregate to consume the same information. Attackers may target services like this to quickly infect multiple computers. You can reduce the success of Watering Hole attacks by restricting access to collaboration tools to only authorized personnel. 
+
 ### Dumpster Diving
 
-### 
+![](../../.gitbook/assets/dumpster.png)
+
+Attackers will often go Dumpster Diving to look for discarded items like confidential reports, building or network diagrams, hard disk drives, access badges, etc. As a cybersecurity professional, ensure your organization has an Information Security policy that addresses the lifecycle of information and equipment. It should specifically cover labeling, storage, and disposal. 
 
