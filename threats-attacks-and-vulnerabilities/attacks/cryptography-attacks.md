@@ -22,7 +22,15 @@ It would not take very long to guess a password that has one character from ever
 
 ## Dictionary Attacks
 
-Dictionary attacks are successful when people user passwords commonly found in a dictionary. The process involves the attacker developing or downloading a list of words and then using them to guess the victim's password. 
+Dictionary attacks are successful when people user passwords commonly found in a dictionary. The process involves the attacker developing or downloading a list of words and then using the list as a look-up table to guess the victim's password. 
+
+### Rainbow Tables
+
+Like Brute Force attacks, Dictionary attacks can also be a slow password guessing technique. To speed up the process of selecting a plain-text password from a list, hashing it, and then trying it as a guess attackers will often use Rainbow Tables. Rainbow Tables are made ahead of time and include plain-text passwords along with their hash. By computing a password's hash ahead of time, the attacker greatly reduces the time required to guess. In practice, an attacker will create or acquire a Rainbow Table once and then maintain/use it on every mission from that point forward. 
+
+{% hint style="info" %}
+If you hashed a single password using multiple algorithms and then assigned one color to each result, it would like a rainbow. 
+{% endhint %}
 
 ## Hybrid Attacks
 
