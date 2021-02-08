@@ -44,11 +44,11 @@ Most people prefer to include context in their passwords. This is makes it easie
 Passphrases are sentence-long passwords like "iLoveCyberSecurity!AndItLovesMeT00!"
 {% endhint %}
 
-Collisions
+## Other Attacks
 
-The Birthday Paradox
+### Collisions
 
-Known Text
+#### The Birthday Paradox
 
 Known Plain-Text
 
