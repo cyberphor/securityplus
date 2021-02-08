@@ -88,6 +88,8 @@ Known Plain-Text attacks are when the attacker has both the plain-text and the c
 
 ### Known Cipher-Text
 
+Known Cipher-Text is when the attacker only knows the cipher-text version of your password. This is still difficult for the attacker to work with, but they may still be able to use this data in Pass-the-Hash \(PTH\) attacks. 
+
 ### Replay Attacks
 
 ### Weak Implementations
