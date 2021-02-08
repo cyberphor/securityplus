@@ -14,13 +14,13 @@ In a Microsoft Windows environment, this database is either the `SAM` file or th
 
 On a Linux computer the attacker must exfiltrate both the `passwd` and `shadow` files from the `/etc/` directory. `/etc/passwd` contains user information like their display name, username, home directory, and login shell. `/etc/shadow` contains the hash version of their password. Tools like John the Ripper and hashcat need both of these files to correctly Brute Force a user's password. 
 
-## Brute Force
+## Brute Force Attacks
 
 Brute Forcing a user's password is when the attacker tries every possible combination as a guess until they're successful. The attacker can start with no information about the password or supply known characteristics like hash type, character classes, or length to her tool. As mentioned above, a password from a Microsoft Windows environment likely to be in a NTLM format while a password from a Linux computer might be MD5, SHA1, or SHA256. Upper-case, lower-case, letters, numbers, and symbols are all character classes. Length is self-explanatory, but it's important to understand why it's important. 
 
 It would not take very long to guess a password that has one character from every class. Yet, it would take much longer to guess a password that is 15 characters in length. This is because you \(or a computer\) would have to try every single character from each class in every position of the 15 character password \(and even then your success as an attacker is only possible because you know the length\). 
 
-## Dictionary
+## Dictionary Attacks
 
 Dictionary attacks are successful when people user passwords commonly found in a dictionary. The process involves the attacker developing or downloading a list of words and then using them to guess the victim's password. They can increase their success by focusing their attention on words relating to their target. For example, if you like football and you were born in 1984, the attacker might try football1984, pigskin1984, or touchdown1984. In theory this would take less than outright guessing individual letters. 
 
@@ -32,7 +32,7 @@ Most people prefer to include context in their passwords. This is makes it easie
 Passphrases are sentence-long passwords like "iLoveCyberSecurity!AndItLovesMeT00!"
 {% endhint %}
 
-## Hybrid
+## Hybrid Attacks
 
 Collisions
 
