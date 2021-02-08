@@ -22,7 +22,11 @@ It would not take very long to guess a password that has one character from ever
 
 ## Dictionary Attacks
 
-Dictionary attacks are successful when people user passwords commonly found in a dictionary. The process involves the attacker developing or downloading a list of words and then using them to guess the victim's password. They can increase their success by focusing their attention on words relating to their target. For example, if you like football and you were born in 1984, the attacker might try football1984, pigskin1984, or touchdown1984. In theory this would take less than outright guessing individual letters. 
+Dictionary attacks are successful when people user passwords commonly found in a dictionary. The process involves the attacker developing or downloading a list of words and then using them to guess the victim's password. 
+
+## Hybrid Attacks
+
+Attackers can increase their success with Dictionary attacks by trying different permutations and focusing their attention on words relating to their target. This technique is considered a Hybrid attack. As an example, imagine someone who was born in 1984 and likes football. The attacker might then try football1984, pigskin1984, or touchdown1984. In theory this would take less time than outright guessing individual letters for the entire length of the password.
 
 {% hint style="warning" %}
 Most people prefer to include context in their passwords. This is makes it easier for both them and their would be attacker. As a cybersecurity professional, your intent should always be to strike a balance between security and usability. If you enforce super complex and long passwords, users will be tempted to write them down on a sticky note. Instead enlighten them with techniques like passphrases. 
@@ -31,8 +35,6 @@ Most people prefer to include context in their passwords. This is makes it easie
 {% hint style="success" %}
 Passphrases are sentence-long passwords like "iLoveCyberSecurity!AndItLovesMeT00!"
 {% endhint %}
-
-## Hybrid Attacks
 
 Collisions
 
