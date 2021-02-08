@@ -4,6 +4,8 @@ description: Compare and contrast types of attacks.
 
 # Wireless Communications
 
+In this section, I cover wireless communication and how attackers use this medium to achieve their objectives. 
+
 ## Rogue APs
 
 ### Evil Twin
