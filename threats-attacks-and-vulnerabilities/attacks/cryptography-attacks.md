@@ -96,9 +96,9 @@ Replay attacks are when the attacker takes credentials they either stole or "sni
 
 ### Downgrade Attacks
 
-
+Downgrade attacks are when someone is able to get an authentication or encryption technology to fallback to a more vulnerable version. A well-known example is in found in web browsing. A browser will need to negotiate with their intended web server which encryption protocol they both support. If an attacker is able to convince the web server to use a vulnerable version they will be able to conduct surveillance and/or access sensitive information. 
 
 ### Weak Implementations
 
-
+Weak Implementations of password security describe either a hashing algorithm or technology configuration \(such as conditions that allow Downgrade attacks to happen\). An example of a weak hashing algorithm is found on computers using the LAN Manager \(LM\) hashing algorithm. LM is incredibly vulnerable. It restricts passwords to 14 characters, changes the character class of all provided letters to upper-case, and splits the result into two separate hashes. Instead of guessing a 14 character-long password, the attacker only needs to guess seven characters at a time. To explain, consider the number of possible combinations of a 14 character password versus a seven character one. The attacker would have to try all special characters, A-Z, and 0-9 in each position. In short, they will come to a conclusion for a seven character password twice well before deducing a 14 character password.  
 
