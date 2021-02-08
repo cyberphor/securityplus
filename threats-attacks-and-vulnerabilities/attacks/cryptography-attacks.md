@@ -8,7 +8,7 @@ I wrote this section to talk about Password Guessing. Although, the more I wrote
 
 ## More Buzzwords
 
-I've read a lot of cybersecurity books throughout my career and I like feel the best way to remember the next the following buzzwords is to categorize them as either a process or principle. For example, Identification, Authentication, and Hashing are processes, they are things you do \(the journey\). Confidentiality, Integrity, Availability, and Non-repudiation are principles, they are things you achieve \(the destination\). 
+I've read a lot of cybersecurity books throughout my career and I like feel the best way to remember the following buzzwords is to categorize them as either a process or principle. For example, Identification, Authentication, and Hashing are processes, they are things you do \(the journey\). Confidentiality, Integrity, Availability, and Non-repudiation are principles, they are things you achieve \(the destination\). 
 
 ### Identification & Authentication
 
@@ -74,15 +74,23 @@ Passphrases are sentence-long passwords like "iLoveCyberSecurity!AndItLovesMeT00
 
 ### Hash Collisions
 
+Hash Collisions are when different strings of data generate the same hash value. The MD5 hashing algorithm is known to be vulnerable to Hash Collisions. Avoid using it for anything that requires what is called "collision-resistance." For instance, anti-virus programs use hash values to recognize malicious software files. An attacker could bypass an anti-virus program if they're able to find a hash collision and get their malware to look benign instead of something known to be malicious. 
+
+In your career, you may still see people who work in Digital Forensics & Incident Response use MD5 and other hashing algorithms vulnerable to hash collisions. This is that balance between usability and security I was talking about. MD5 has been around forever and gets the job done \(not to mention it's available in tool-form on almost every computer\). 
+
 #### The Birthday Paradox
 
-Known Plain-Text
+The Birthday Paradox is the idea that with enough people in one room, two of them are bound to have the same birthday. It's been said attackers can use this statistic to improve their success in finding Hash Collisions. 
 
-Known Cipher-Text
+### Known Plain-Text
 
-Replay
+Known Plain-Text attacks are when the attacker has both the plain-text and the cipher-text version of your password. The significance of this is the attacker can now begin deducing other passwords. To explain, imagine if I knew what your password was. I would count the length and identify the character classes. I would then also feed your plain-text password into my password guessing tools until I found a match to the cipher-text version of your password. This would help me learn which hashing algorithm is in use. If I am able to what password policy and hashing algorithm your organization uses, I can target anyone's account. 
 
-Weak Implementations
+### Known Cipher-Text
 
-Downgrade Attacks
+### Replay Attacks
+
+### Weak Implementations
+
+### Downgrade Attacks
 
