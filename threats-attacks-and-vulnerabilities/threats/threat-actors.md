@@ -6,13 +6,13 @@ description: Explain threat actor types and attributes.
 
 ## Attributes
 
-### Internal vs External
+### Intent & Motivation
 
-### Level of Sophistication
+### Internal vs External
 
 ### Resources & Funding
 
-### Intent & Motivation
+### Level of Sophistication
 
 ## Types
 
@@ -20,11 +20,13 @@ description: Explain threat actor types and attributes.
 
 ### Hacktivists
 
-### Organized Crime
-
-### Nation States
-
 ### Insiders
 
 ### Competitors
+
+### Organized Crime
+
+### Nation State Threats
+
+### 
 
