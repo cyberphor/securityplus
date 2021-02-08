@@ -4,9 +4,35 @@ description: Compare and contrast types of attacks.
 
 # Password Guessing
 
+I wrote this section to talk about Password Guessing. Although, the more I wrote, the more I felt like it was necessary to provide a quick review of important concepts one grasp before going further. 
+
+## More Buzzwords
+
+I've read a lot of cybersecurity books throughout my career and I like feel the best way to remember the next the following buzzwords is to categorize them as either a process or principle. For example, Identification, Authentication, and Hashing are processes, they are things you do \(the journey\). Confidentiality, Integrity, Availability, and Non-repudiation are principles, they are things you achieve \(the destination\). 
+
+### Identification & Authentication
+
+Identification is when you claim to be someone or something. Authentication is when you prove it. 
+
+### Hashing
+
+Hashing is feeding data into an algorithm to get a value that represents it. This value can be used to provide authentication, integrity, and non-repudiation. Think of hashing like paying for groceries and getting a receipt. Your groceries are data while your receipt is the hash. 
+
+### Integrity
+
+Integrity is achieved and maintained when something remains the same. For example, you might save a grocery list to always remember to buy coffee and root beer. The integrity of your grocery shopping is confirmed \(achieved\) whenever the receipt doesn't change. If the receipt does change, either you forgot to grab the coffee or the root beer or someone added something to your cart.  
+
+### Non-repudiation
+
+Non-repudiation is achieved when someone unable to deny they did something. For example, a security camera provides Non-repudiation because it proves someone did something.  
+
+## Password Guessing
+
 There's no such thing as password _cracking_. Either the attacker correctly guesses your password or they're able to uncover it using tactics like Social Engineering. Password guessing includes Brute Force, Dictionary, and Hybrid attacks. Each method represents how much the attacker is willing to invest in performing reconnaissance beforehand. Regardless, their success largely depends on if their guessing efforts are online or offline.
 
 ## Online vs Offline Guessing
+
+I've read a lot of cybersecurity books throughout my career and I like feel the best way to remember the following buzzwords is to categorize them as either a process or principle. For example, Identification, Authentication, and Hashing are processes, or things you do \(the journey\). Confidentiality, Integrity, Availability, and Non-repudiation are principles, or are things you achieve \(the destination\). 
 
 Online password guessing is noisy and risky for the attacker. If the right cybersecurity controls are in place, the victim will get tipped off relatively quickly. Example controls are having a password lockout policy and multi-factor authentication. Offline guessing is only possible if the attacker is able to access and exfiltrate the database that contains username and passwords.
 
@@ -22,22 +48,22 @@ It would not take very long to guess a password that has one character from ever
 
 ## Dictionary Attacks
 
-Dictionary attacks are successful when people user passwords commonly found in a dictionary. The process involves the attacker developing or downloading a list of words and then using the list as a look-up table to guess the victim's password. 
+Dictionary attacks are successful when people user passwords commonly found in a dictionary. The process involves the attacker developing or downloading a list of words and then using the list as a look-up table to guess the victim's password.
 
 ### Rainbow Tables
 
-Like Brute Force attacks, Dictionary attacks can also be a slow password guessing technique. To speed up the process of selecting a plain-text password from a list, hashing it, and then trying it as a guess attackers will often use Rainbow Tables. Rainbow Tables are made ahead of time and include plain-text passwords along with their hash. By computing a password's hash ahead of time, the attacker greatly reduces the time required to guess. In practice, an attacker will create or acquire a Rainbow Table once and then maintain/use it on every mission from that point forward. 
+Like Brute Force attacks, Dictionary attacks can also be a slow password guessing technique. To speed up the process of selecting a plain-text password from a list, hashing it, and then trying it as a guess attackers will often use Rainbow Tables. Rainbow Tables are made ahead of time and include plain-text passwords along with their hash. By computing a password's hash ahead of time, the attacker greatly reduces the time required to guess. In practice, an attacker will create or acquire a Rainbow Table once and then maintain/use it on every mission from that point forward.
 
 {% hint style="info" %}
-If you hashed a single password using multiple algorithms and then assigned one color to each result, it would like a rainbow. 
+If you hashed a single password using multiple algorithms and then assigned one color to each result, it would look like a rainbow.
 {% endhint %}
 
 ## Hybrid Attacks
 
-Attackers can increase their chance for success by using different word permutations and focusing their attention on words relating to their target. This technique is consider a Hybrid attack. For example, imagine someone who likes football and was born in 1984. An attacker might then try football1984, f00tball1984, f00tb@ll1984, etc. In theory this should still take less time than outright guessing individual letters.
+Attackers can increase their chance for success by using different word permutations and focusing their attention on words relating to their target. This technique is called a Hybrid attack. For example, imagine someone who likes football and was born in 1984. An attacker might then try football1984, f00tball1984, f00tb@ll1984, etc. In theory this should still take less time than outright guessing individual letters.
 
 {% hint style="warning" %}
-Most people prefer to include context in their passwords. This is makes it easier for both them and their would be attacker. As a cybersecurity professional, your intent should always be to strike a balance between security and usability. If you enforce super complex and long passwords, users will be tempted to write them down on a sticky note. Instead enlighten them with techniques like passphrases.
+Most people prefer to include context in their passwords. This is makes it easier for both them and their would be attacker. As a cybersecurity professional, your intent should always be to strike a balance between security and usability. If you require super complex and long passwords, users will be tempted to write them down on a sticky note. Instead enlighten them with techniques like passphrases.
 {% endhint %}
 
 {% hint style="success" %}
@@ -46,7 +72,7 @@ Passphrases are sentence-long passwords like "iLoveCyberSecurity!AndItLovesMeT00
 
 ## Other Attacks
 
-### Collisions
+### Hash Collisions
 
 #### The Birthday Paradox
 
