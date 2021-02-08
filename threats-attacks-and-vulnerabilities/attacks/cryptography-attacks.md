@@ -26,6 +26,8 @@ Integrity is achieved and maintained when something remains the same. For exampl
 
 Non-repudiation is achieved when someone unable to deny they did something. For example, a security camera provides Non-repudiation because it proves someone did something.  
 
+## Password Guessing
+
 There's no such thing as password _cracking_. Either the attacker correctly guesses your password or they're able to uncover it using tactics like Social Engineering. Password guessing includes Brute Force, Dictionary, and Hybrid attacks. Each method represents how much the attacker is willing to invest in performing reconnaissance beforehand. Regardless, their success largely depends on if their guessing efforts are online or offline.
 
 ## Online vs Offline Guessing
@@ -70,7 +72,7 @@ Passphrases are sentence-long passwords like "iLoveCyberSecurity!AndItLovesMeT00
 
 ## Other Attacks
 
-### Collisions
+### Hash Collisions
 
 #### The Birthday Paradox
 
