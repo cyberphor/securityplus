@@ -90,10 +90,6 @@ Known Plain-Text attacks are when the attacker has both the plain-text and the c
 
 Known Cipher-Text is when the attacker only knows the cipher-text version of your password. For the attacker, this is difficult to work with if they specifically need the plain-text version. Scenarios were this might be true is if they learned the cipher-text version of your Instagram account, but they want to access your Snapchat. Regardless, having a bit of cipher-text is better than having nothing. They can still use this information to perform Replay attacks. 
 
-### Replay Attacks
-
-Replay attacks are when the attacker takes credentials they either stole or "sniffed off the wire" and reuses them as is to gain access. Another closely-related concept are Pass-the-Hash attacks. Although, I cover this in the next section, "Services & Applications."
-
 ### Downgrade Attacks
 
 Downgrade attacks are when someone is able to get an authentication or encryption technology to fallback to a more vulnerable version. A well-known example is in found in web browsing. A browser will need to negotiate with their intended web server which encryption protocol they both support. If an attacker is able to convince the web server to use a vulnerable version they will be able to conduct surveillance and/or access sensitive information. 
