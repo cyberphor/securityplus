@@ -16,6 +16,8 @@ On a Linux computer the attacker must exfiltrate both the `passwd` and `shadow` 
 
 ## Brute Force
 
+
+
 ## Dictionary
 
 ## Hybrid
