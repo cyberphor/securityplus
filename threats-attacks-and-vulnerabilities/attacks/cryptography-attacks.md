@@ -88,11 +88,17 @@ Known Plain-Text attacks are when the attacker has both the plain-text and the c
 
 ### Known Cipher-Text
 
-Known Cipher-Text is when the attacker only knows the cipher-text version of your password. This is still difficult for the attacker to work with, but they may still be able to use this data in Pass-the-Hash \(PTH\) attacks. 
+Known Cipher-Text is when the attacker only knows the cipher-text version of your password. For the attacker, this is difficult to work with if they specifically need the plain-text version. Scenarios were this might be true is if they learned the cipher-text version of your Instagram account, but they want to access your Snapchat. Regardless, having a bit of cipher-text is better than having nothing. They can still use this information to perform Replay attacks. 
 
 ### Replay Attacks
 
-### Weak Implementations
+Replay attacks are when the attacker takes credentials they either stole or "sniffed off the wire" and reuses them as is to gain access. Another closely-related concept are Pass-the-Hash attacks. Although, I cover this in the next section, "Services & Applications."
 
 ### Downgrade Attacks
+
+
+
+### Weak Implementations
+
+
 
