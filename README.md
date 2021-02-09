@@ -4,8 +4,9 @@ Hello world! My name is Victor Fernandez III. These are notes I have developed t
 
 ## Before Getting Started
 
-Before getting started, I recommend having a decent grasp of the following topics:
+Before getting started, I recommend having a decent grasp of the topics below. They provide the backdrop for a lot of material so doing a deep-dive on each will make your studying efforts a little easier. 
 
+* Electromagnetic Spectrum
 * Encapsulation
 * TCP/IP
 * Encryption
