@@ -6,11 +6,11 @@ Hello world! My name is Victor Fernandez III. These are notes I have developed t
 
 Before getting started, I recommend having a decent grasp of the following topics:
 
-* TCP/IP
 * Encapsulation
-* Wireless communication
+* TCP/IP
 * Encryption
 * Hashing
+* Wireless communication
 
 ## Credits
 
