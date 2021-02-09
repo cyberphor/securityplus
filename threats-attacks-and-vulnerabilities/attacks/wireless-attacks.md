@@ -24,11 +24,11 @@ Attackers are often successful in Jamming wireless communications when they're a
 
 ![](../../.gitbook/assets/wifi-signal.png)
 
-By design, Disassociation 
+By design, Disassociation is an option for wireless devices when they no longer wish to communicate with an Access Point \(AP\). Attackers know this and will often seek to \(1\) find out their target's wireless MAC address, \(2\) spoof it, and \(3\) send Disassociation requests to the AP on the victim's behalf. As a cybersecurity professional, enforcing stronger authentication is one technique for mitigating this attack. If this speaks to you, consider implementing the IEEE 802.11w standard across your organization. It includes frame protections not inherent to previous iterations of IEEE 802.11. 
 
 ## Rogue APs
 
-Attackers use Rogue APs \(Access Points\) in order to wirelessly extend the already-existing, wired network. The benefit of doing so allows them to bypass various network access controls and enter the network without being in close-proximity. Your organization should have a policy that prohibits personnel from connecting networking equipment without proper authorization. 
+Attackers use Rogue APs in order to wirelessly extend the already-existing, wired network. The benefit of doing so allows them to bypass various network access controls and enter the network without being in close-proximity. Your organization should have a policy that prohibits personnel from connecting networking equipment without proper authorization. 
 
 ### Evil Twins
 

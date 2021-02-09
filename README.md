@@ -7,7 +7,7 @@ Hello world! My name is Victor Fernandez III. These are notes I have developed t
 Before getting started, I recommend having a broad understanding of the topics below. They provide the backdrop for a lot of material in cybersecurity so spending the time to do a deep-dive on each will make your studying efforts go more smoothly. 
 
 * Electromagnetic Spectrum
-  * Copper wires \(volts\), radio antennas \(signal\), fiber optic cable \(photons\) 
+  * Copper \(volts\), radio \(signal\), fiber optic \(photons\) 
 * Encapsulation
 * Protocol Data Units
   * Segments
