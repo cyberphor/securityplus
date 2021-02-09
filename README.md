@@ -4,14 +4,25 @@ Hello world! My name is Victor Fernandez III. These are notes I have developed t
 
 ## Before Getting Started
 
-Before getting started, I recommend having a decent grasp of the topics below. They provide the backdrop for a lot of material so doing a deep-dive on each will make your studying efforts a little easier. 
+Before getting started, I recommend having a broad understanding of the topics below. They provide the backdrop for a lot of material in cybersecurity so spending the time to do a deep-dive on each will make your studying efforts go more smoothly. 
 
 * Electromagnetic Spectrum
+  * Copper wires \(volts\), radio antennas \(signal\), fiber optic cable \(photons\) 
 * Encapsulation
+* Protocol Data Units
+  * Segments
+  * Packets
+  * Frames
+  * Bits
 * TCP/IP
+  * DNS
+  * TCP, UDP
+  * IP
+  * IEEE 802.3 \(Wired Ethernet\), IEEE 802.11 \(Wireless Ethernet\), IEEE 802.15.1 \(Bluetooth\)
+* Networking Protocols
 * Encryption
 * Hashing
-* Wireless communication
+* Wireless Communication
 
 ## Credits
 

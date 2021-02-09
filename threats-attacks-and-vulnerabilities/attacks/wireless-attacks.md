@@ -14,17 +14,17 @@ To remain undetected, attackers will try to stay as far away from their target a
 
 ## Interference
 
-Interference is when a transmitter and receiver are unable to wirelessly communicate with each other. When Interference is intentional, it's considered Jamming. 
+Interference is when a transmitter and receiver are unable to wirelessly communicate with each other. When Interference is intentional, it is considered Jamming. 
 
 ### Jamming
 
-Attackers are often successful in Jamming wireless communications when they're able to get their equipment to transmit a high-powered signal on the same frequency as their target. If the attacker's signal is able to cancel out their victim's, they have effectively achieved a Denial-of-Service \(DoS\) attack. 
+Attackers are often successful in Jamming wireless communications when they're able to get their equipment to transmit a high-powered signal on the same frequency as their target. If the attacker's signal is able to cancel out their victim's, they have effectively achieved a Denial-of-Service \(DoS\) attack. Another form of Jamming is using Disassociation. 
 
 ### Disassociation
 
 ![](../../.gitbook/assets/wifi-signal.png)
 
-A Disassociation attack is a 
+By design, Disassociation 
 
 ## Rogue APs
 
