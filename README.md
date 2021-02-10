@@ -8,6 +8,9 @@ Before getting started, I recommend having a broad understanding of the topics b
 
 * Electromagnetic Spectrum
   * Copper \(volts\), radio \(signal\), fiber optic \(photons\) 
+* Web Applications
+  * Graphical user interfaces
+  * Databases queries
 * Encapsulation
 * Protocol Data Units
   * Segments
@@ -15,7 +18,7 @@ Before getting started, I recommend having a broad understanding of the topics b
   * Frames
   * Bits
 * TCP/IP
-  * DNS
+  * DNS, HTTP
   * TCP, UDP
   * IP
   * IEEE 802.3 \(Wired Ethernet\), IEEE 802.11 \(Wireless Ethernet\), IEEE 802.15.1 \(Bluetooth\)
