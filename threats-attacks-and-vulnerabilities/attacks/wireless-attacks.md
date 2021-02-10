@@ -56,7 +56,7 @@ Bluejacking is when someone sends you unsolicited messages to your Bluetooth-ena
 
 #### Bluesnarfing
 
-Bluesnarfing is when someone steals data from your Bluetooth-enabled device. 
+Bluesnarfing is when someone steals data \(like your contacts\) from your Bluetooth-enabled device. 
 
 ### RFID 
 
