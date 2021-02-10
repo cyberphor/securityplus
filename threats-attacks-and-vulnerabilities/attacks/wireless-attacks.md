@@ -44,25 +44,25 @@ WPS, or Wi-Fi Protected Setup, is an alternative method of authenticating to an 
 
 ## PAN Attacks
 
-Most of the attacks above pertain to Wireless Local Area Networks \(WLANs\). As a cybersecurity professional, you must also be aware of what an attacker might do when they "close the distance" between themselves and their target. 
+Most of the attacks above pertain to Wireless Local Area Networks \(WLANs\). As a cybersecurity professional, you must also be aware of what an attacker might do when they "close the distance" between themselves and their target. The space I am alluding to is where Personal Area Networks \(PANs\) exist. Since WLANs and PANs use different kinds of hardware, they have different broadcast, authentication, and encryption capabilities. 
 
 ### Bluetooth
 
-Bluetooth was designed to facilitate Personal Area Networks \(PANs\). 
+Bluetooth was originally developed to facilitate wireless headphones. The namesake comes from a famous Viking who had a tooth that looked blue and united tribes together from present-day Denmark and Norway. For more information about this guy, check-out "[The Man Behind the Tooth](https://www.bluetooth.com/about-us/bluetooth-origin/)." For information about Bluetooth attacks, read below. 
 
 #### Bluejacking
 
-Sending unsolicited messages.
+Bluejacking is when someone sends you unsolicited messages to your Bluetooth-enabled device.  
 
 #### Bluesnarfing
 
-Stealing data. 
+Bluesnarfing is when someone steals data from your Bluetooth-enabled device. 
 
-### RFID
+### RFID 
 
-Radio Frequency Identification
+Radio Frequency Identification \(RFID\) is technology used for identifying and tracking equipment. At a minimum, an RFID system includes a tag and a reader. When invoked, the tag will provide the reader unique information. Normally, you put the tag on the equipment you don't want to lose and then, use a reader whenever you need to find the equipment. RFID technology has been used in warehouses, ships, and on pets. RFID is susceptible to Denial-of-Service \(DoS\), eavesdropping, replay, and spoofing attacks. Lastly, RFID is largely used for one-way communication while NFC, which was built upon RFID, is used for two-way communication.   
 
 ### NFC
 
-Near-Field Communication
+NFC, or Near-Field Communication, devices are mostly used for wireless financial transactions, exchanging data like contact information or pictures, or bootstrapping. Bootstrapping is when something simple allows you to do something complex or difficult \(like the straps that might help a cowboy put his boots on in the morning\). In cyberspace, bootstrapping via NFC might help someone connect to a network. Imagine touching your home router with your cellphone and being able to connect to the Wi-Fi. NFC is one option for making this possible. NFC is also known to be used in car keys \(key fobs\). Since NFC is built on top of RFID, it is also DoS, eavesdropping, replay, and spoofing attacks.
 
