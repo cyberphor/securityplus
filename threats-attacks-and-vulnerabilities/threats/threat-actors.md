@@ -4,9 +4,13 @@ description: Explain threat actor types and attributes.
 
 # Threat Actors
 
+## 
+
 ## Attributes
 
 ### Intent & Motivation
+
+
 
 ### Internal vs External
 
