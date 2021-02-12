@@ -26,7 +26,7 @@ Attackers are often successful in Jamming wireless communications when they're a
 
 ### Disassociation
 
-![](../../.gitbook/assets/wifi-signal.png)
+![](../../.gitbook/assets/wifi-signal%20%281%29%20%282%29%20%281%29.png)
 
 By design, Disassociation is an option for wireless devices when they no longer wish to communicate with an Access Point \(AP\). Attackers know this and will often seek to \(1\) find out their target's wireless MAC address, \(2\) spoof it, and \(3\) send Disassociation requests to the AP on the victim's behalf. As a cybersecurity professional, enforcing stronger authentication is one technique for mitigating this attack. If this speaks to you, consider implementing the IEEE 802.11w standard across your organization. It includes frame protections not inherent to previous iterations of IEEE 802.11.
 
