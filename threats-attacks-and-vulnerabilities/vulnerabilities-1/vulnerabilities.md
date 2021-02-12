@@ -4,10 +4,12 @@ description: Explain the impact associated with types of vulnerabilities.
 
 # Vulnerability Research
 
-As a cybersecurity professional, you must understand what conditions and security flaws enable threat actors to achieve their objectives. At a high-level, these _vulnerabilities_ can be organized as business processes, system design, misconfigurations, and architecture design. I prefer to use Standard Operating Procedures \(SOPs\), system design, system misconfigurations, and network defensibility though.  
+As a cybersecurity professional, it is important to routinely conduct research into the conditions or security flaws enable threat actors to achieve their objectives. At a high-level, these _vulnerabilities_ can be organized as business processes, system design, misconfigurations, and architecture design. I prefer to use Standard Operating Procedures \(SOPs\), system design, system misconfigurations, and network defensibility though. 
+
+As a cybersecurity professional, you must understand what conditions and security flaws enable threat actors to achieve their objectives. At a high-level, these _vulnerabilities_ can be organized business processes, system design, misconfigurations, and architecture design. I prefer to use Standard Operating Procedures \(SOPs\), system design, system misconfigurations, and network defensibility though.
 
 {% hint style="info" %}
-**Vulnerabilities** are conditions or security flaws that enable threat actors to achieve their objectives. 
+**Vulnerabilities** are conditions or security flaws that enable threat actors to achieve their objectives.
 {% endhint %}
 
 ## Standard Operating Procedures
