@@ -38,12 +38,12 @@ Threat Actors need equipment and the means to sustain their operations. Knowing 
 The word _sophistication_ means "not simple" and can be used as a spectrum to describe how creative and capable Threat Actors are. For example, a very sophisticated Threat Actor might spend months performing online and in-person reconnaissance against their target before striking. Meanwhile, the kid next door to the same Threat Actor might randomly execute code they found on social media. They don't know exactly what it'll do, but they're interested because it looks like something Elliot Alderson does. 
 
 {% hint style="info" %}
-**Who is Elliot Alderson?** 
-
-Do a web search for Mr. Robot if you've never heard of Elliot Alderson.
+If you've never heard of Elliot Alderson, do a web search for the television show "Mr. Robot." There's also a French hacker of the same pseudo name on Twitter who specializes in Application Security. He goes by the handle "fs0c131y."  
 {% endhint %}
 
 ## Types
+
+Think of Attributes like ingredients and Types as food. What I explained above goes into every Threat Actor. The terms below represent the different kinds of Threat Actors you will encounter. 
 
 ### Script Kiddies
 
