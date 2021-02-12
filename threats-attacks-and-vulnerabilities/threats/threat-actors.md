@@ -59,7 +59,7 @@ Hacktivists are activists with an above-average set of IT skills who hack for po
 
 ### Insiders
 
-Insiders, or Insider Threats, are disgruntled people who currently work or use to work for your organization. They are mostly motivated by revenge and having varying levels of sophistication and support. 
+Insiders, or Insider Threats, are disgruntled people who currently work or use to work for your organization. They are mostly motivated by revenge and having varying levels of sophistication/support. 
 
 ### Competitors
 
