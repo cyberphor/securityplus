@@ -4,28 +4,19 @@ description: Explain threat actor types and attributes.
 
 # Threat Actors
 
-Throughout your career, leadership will ask you to communicate the probability and impact of something bad happening on the network \(i.e. an incident\). Your success in doing so will largely depend on if you can accurately describe Threat Actors using their attributes and types.
+Throughout your career, leadership will ask you to communicate the probability and impact of something bad happening on the network \(i.e. an incident\). Your success in doing so will largely depend on your ability to accurately describe Threat Actors using their attributes and types.
 
 {% hint style="info" %}
-**Threat Actors**
-
-Threat Actors are people who want to exploit the security flaws in your organization.
+**Threat Actors** are people who want to exploit the security flaws in your organization.
 {% endhint %}
 
 ## Attributes
 
-Attributes are what set people apart. For example, consider the following: reasons why someone might become a cybersecurity professional, what kind of organization they might dream of joining, how much support they have, and the effectiveness of their skills. Maybe they think a job is cool and that it'll be high-paying. What if they want to share in the identity that comes from a globally recognized cybersecurity company? Maybe they have only the laptop they bought at Walmart to work with instead of an Apple Macbook. Finally, what about being incredibly capable versus knowing enough to show-off? These are the same attributes we must use to distinguish one Threat Actor from another. 
-
-Attributes are what set people apart. For example, consider the following: reasons why someone might become a cybersecurity professional, what kind of organization they might dream of joining, how much support they have, and the effectiveness of their skills. Maybe they think it's cool and that it can become a high-paying job. What if they want to share in the identity that comes from a globally recognized cybersecurity company? Maybe they have only the laptop they bought at Walmart to work with instead of an Apple Macbook. Finally, what about being incredibly capable versus knowing enough to show-off? These are the same attributes we must use to distinguish one Threat Actor from another.
+Attributes are what set people apart. For example, consider the following: reasons why someone might become a cybersecurity professional, the kind organization they might dream of joining, how much support they have in obtaining the goal, and the effectiveness of their skills. Maybe they think the organization has cool jobs and that'll pay well. What if they want to share their identity as a globally respected company? Maybe they have only a laptop they bought from Walmart or maybe they have their own data center. What if they are incredibly capable or just know enough to show-off? These are the kind of attributes we will use to distinguish one Threat Actor from another. 
 
 ### Motivation & Intent
 
-Threat Actors are motivated by fame, politics, revenge, competition, money, or national security.
-
-{% hint style="info" %}
-**Semantics**  
-In my mind, I like to discern between the words Motivation and Intent. To me, Motivation represents what causes you to get off the couch. Intent represents where you plan to go. For example, you might be motivated to get up because you're hungry. Yet, your intent \(goal\) is to get a sandwich. I highly doubt CompTIA will ever expect you to make this distinction but this helps me in the way I think about a Threat Actor's "why, reason, etc." So maybe it'll help you.
-{% endhint %}
+Threat Actors are motivated by fame, politics, revenge, competition, money, or national security. In my mind, I like to discern between the words Motivation and Intent. To me, Motivation represents what causes you to get off the couch. Intent represents where you plan to go. For example, you might be motivated to get up because you're hungry. Yet, your intent \(goal\) is to get a sandwich. I highly doubt CompTIA will ever expect you to make this distinction but this helps me in the way I think about a Threat Actor's "why, reason, etc." So maybe it'll help you.
 
 ### Internal vs External
 
@@ -67,5 +58,13 @@ Competitors are external people who seek to out-perform your organization. They 
 
 ### Organized Crime
 
-### Nation State Threats
+Organized criminals are groups of people who are motivated by financial gain. Their activities include identity theft and money laundering. 
+
+### Nation States & APTs
+
+![](../../.gitbook/assets/flag.png)
+
+Advanced Persistent Threats \(APTs\) are the most sophisticated kind of Threat Actor external to your organization. They are government resourced/funded groups who attack via cyberspace to ensure the survivability of their Nation State. A Nation State is a self-governing country who's politics align with it's culture. China and APT 1 are perfect examples. 
+
+
 
