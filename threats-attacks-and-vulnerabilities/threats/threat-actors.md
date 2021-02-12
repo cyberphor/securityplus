@@ -35,7 +35,7 @@ Threat Actors need equipment and the means to sustain their operations.
 
 ### Level of Sophistication
 
-The word _sophistication_ means "not simple" and can be used as a spectrum to describe how creative and capable Threat Actors are. For example, a very sophisticated adversary might spend months performing online and in-person reconnaissance against their target before striking. Meanwhile, the kid next door to the same adversary might randomly execute code they found on social media. They don't know exactly what it'll do, but they're interested because it looks like something Elliot Alderson does. The adversary has a high level of sophistication because of their original skill-set while the kid does not.  
+The word _sophistication_ means "not simple" and can be used as a spectrum to describe how creative and capable Threat Actors are. For example, a very sophisticated Threat Actor might spend months performing online and in-person reconnaissance against their target before striking. Meanwhile, the kid next door to the same Threat Actor might randomly execute code they found on social media. They don't know exactly what it'll do, but they're interested because it looks like something Elliot Alderson does. 
 
 {% hint style="info" %}
 **Who is Elliot Alderson?** 
@@ -56,6 +56,4 @@ Do a web search for Mr. Robot if you've never heard of Elliot Alderson.
 ### Organized Crime
 
 ### Nation State Threats
-
-### 
 
