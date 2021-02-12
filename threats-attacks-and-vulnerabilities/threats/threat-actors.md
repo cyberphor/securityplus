@@ -14,7 +14,7 @@ Threat Actors are people who want to exploit the security flaws in your organiza
 
 ## Attributes
 
-Attributes are what set people apart. For example, think about why someone might become a cybersecurity professional, what organization they might dream of joining, how much support they have, and how effective they are at their job. Maybe they think it's cool and that it can become a high-paying job. What if they want to share in the identity that comes from a globally recognized cybersecurity company? Maybe they have only the laptop they bought at Walmart to work with instead of an Apple Macbook. Finally, what about being incredibly capable versus knowing enough to show-off? These are the same attributes we must use to distinguish one Threat Actor from another. 
+Attributes are what set people apart. For example, consider the following: reasons why someone might become a cybersecurity professional, what kind of organization they might dream of joining, how much support they have, and the effectiveness of their skills. Maybe they think it's cool and that it can become a high-paying job. What if they want to share in the identity that comes from a globally recognized cybersecurity company? Maybe they have only the laptop they bought at Walmart to work with instead of an Apple Macbook. Finally, what about being incredibly capable versus knowing enough to show-off? These are the same attributes we must use to distinguish one Threat Actor from another. 
 
 ### Motivation & Intent 
 
@@ -27,11 +27,11 @@ In my mind, I like to discern between the words Motivation and Intent. To me, Mo
 
 ### Internal vs External
 
-Threat Actors are oriented as either inside or outside of your organization. 
+Threat Actors are oriented as either inside or outside of your organization. This attribute is important because people "on the inside" will the knowledge necessary to cause the greatest damage. Imagine someone who is expected to have administrator access versus a stranger. Your security operations might be focused on finding the abnormality yet, what if the source of an incident is the very person investigating it? 
 
 ### Resources & Funding
 
-Threat Actors need equipment and the means to sustain their operations. 
+Threat Actors need equipment and the means to sustain their operations. Knowing or understanding these details about an adversary will allow you to gauge the duration/effect of the attack they planned. It will also help leadership decide which risk mitigation strategy they want to invoke. If it's a short-term attack by a Threat Actor with limited resources, you might recommend something superficial to mitigate it \(ex: new firewall rule blocking the source IP address of the attack\). Yet, if the organization falls victim to the corporate espionage you might recommend something significant like revamping the entire employee on-boarding and off-boarding process. 
 
 ### Level of Sophistication
 
