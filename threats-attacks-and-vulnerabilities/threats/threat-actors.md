@@ -43,11 +43,17 @@ If you've never heard of Elliot Alderson, do a web search for the television sho
 
 ## Types
 
-Think of Attributes like ingredients and Types as food. What I explained above goes into every Threat Actor. The terms below represent the different kinds of Threat Actors you will encounter. 
+Think of Threat Actor attributes like ingredients to food and Types as the different dishes one might make. What I explained above goes into every Threat Actor. The terms below represent the different kinds of Threat Actors you will encounter. 
 
 ### Script Kiddies
 
+Script Kiddies are people with very limited skills/support who are normally outside your organization and wish to cause an incident for fame or bragging rights. 
+
 ### Hacktivists
+
+![](../../.gitbook/assets/hacker.png)
+
+Hacktivists are activists with an above-average set of IT skills who hack for political reasons. Therefore, they could be part of your organization or outside of it. Their real power comes from their ability to crowd-source support. In my opinion, this is the reason why "hackers" in general are now depicted with Guy Fawkes masks. There's a movie called "V for Vendetta" where the main protagonist \(wearing the infamous mask\) says "ideas are bulletproof." To me, this means even if you defeat or thwart one Hacktivist, as long as their political beliefs are in opposition of your organization, they will never stop. 
 
 ### Insiders
 
