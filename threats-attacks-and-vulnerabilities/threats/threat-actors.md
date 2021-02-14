@@ -12,7 +12,7 @@ Throughout your career, leadership will ask you to communicate the probability a
 
 ## Attributes
 
-Attributes are what set people apart. For example, consider the following: reasons why someone might become a cybersecurity professional, the kind organization they might dream of joining, how much support they have in obtaining the goal, and the effectiveness of their skills. Maybe they think the organization has cool jobs and that'll pay well. What if they want to share their identity as a globally respected company? Maybe they have only a laptop they bought from Walmart or maybe they have their own data center. What if they are incredibly capable or just know enough to show-off? These are the kind of attributes we will use to distinguish one Threat Actor from another. 
+Attributes are what set people apart. For example, consider the following: reasons why someone might become a cybersecurity professional, the kind organization they might dream of joining, how much support they have in obtaining the goal, and the effectiveness of their skills. Maybe they think the organization has cool jobs and that'll pay well. What if they want to share their identity as a globally respected company? Maybe they have only a laptop they bought from Walmart or maybe they have their own data center. What if they are incredibly capable or just know enough to show-off? These are the kind of attributes we will use to distinguish one Threat Actor from another.
 
 ### Motivation & Intent
 
@@ -50,21 +50,19 @@ Hacktivists are activists with an above-average set of IT skills who hack for po
 
 ### Insiders
 
-Insiders, or Insider Threats, are disgruntled people who currently work or use to work for your organization. They are mostly motivated by revenge and having varying levels of sophistication/support. 
+Insiders, or Insider Threats, are disgruntled people who currently work or use to work for your organization. They are mostly motivated by revenge and having varying levels of sophistication/support.
 
 ### Competitors
 
-Competitors are external people who seek to out-perform your organization. They normally conduct what is called Corporate or Cyber Espionage to collect intelligence on how your business operates and what they have planned. 
+Competitors are external people who seek to out-perform your organization. They normally conduct what is called Corporate or Cyber Espionage to collect intelligence on how your business operates and what they have planned.
 
 ### Organized Crime
 
-Organized criminals are groups of people who are motivated by financial gain. Their activities include identity theft and money laundering. 
+Organized criminals are groups of people who are motivated by financial gain. Their activities include identity theft and money laundering.
 
 ### Nation States & APTs
 
 ![](../../.gitbook/assets/flag.png)
 
-Advanced Persistent Threats \(APTs\) are the most sophisticated kind of Threat Actor external to your organization. They are government resourced/funded groups who attack via cyberspace to ensure the survivability of their Nation State. A Nation State is a self-governing country who's politics align with it's culture. China and APT 1 are perfect examples. 
-
-
+Advanced Persistent Threats \(APTs\) are the most sophisticated kind of Threat Actor external to your organization. They are government resourced/funded groups who attack via cyberspace to ensure the survivability of their Nation State. A Nation State is a self-governing country who's politics align with it's culture. China and APT 1 are perfect examples.
 
