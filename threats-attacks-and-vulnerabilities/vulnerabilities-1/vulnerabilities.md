@@ -12,7 +12,7 @@ As a cybersecurity professional, it is important to routinely conduct research i
 
 ## Standard Operating Procedures
 
-Standard Operating Procedures \(SOPs\) contain administrative security controls and provide instruction on for what should be routine work. For example, the impact of having untrained users, undocumented assets, and poor key management are all signs the organization either does not have, follow, or enforce an SOP. If they did, the risk of the scenarios mentioned would be a source of vulnerability. 
+Standard Operating Procedures \(SOPs\) contain administrative security controls and provide instruction on for what should be routine work. For example, the impact of having untrained users, undocumented assets, and poor key management are all signs the organization either does not have, follow, or enforce an SOP. If they did, the risk of the scenarios mentioned would not be a source of vulnerability. 
 
 ### Untrained Users
 
