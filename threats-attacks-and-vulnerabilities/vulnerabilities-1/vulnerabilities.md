@@ -16,15 +16,15 @@ Standard Operating Procedures \(SOPs\) contain administrative security controls 
 
 ### Untrained Users
 
-Untrained Users are people who are unaware of the cybersecurity responsibilities they have within the organization. Their ignorance is all that stands between a determined Threat Actor and the next billion dollar data breach. Before granting anyone network access, ensure they have the right security clearance, need-to-know, signed an Acceptable Use Policy \(AUP\), signed a Non-Disclosure Agreement \(NDA\), and has completed your organization's cybersecurity awareness training. As we will discuss in the "Social Engineering" section, if you want to positively influence someone's behavior, you have to increase their awareness and communicate what is acceptable/unacceptable. 
+Untrained Users are people who are unaware of the cybersecurity responsibilities they have within the organization. Their ignorance is all that stands between a determined Threat Actor and the next billion dollar data breach. Before granting anyone network access, ensure they have the correct security clearance, need-to-know, signed an Acceptable Use Policy \(AUP\), signed a Non-Disclosure Agreement \(NDA\), and has completed your organization's cybersecurity awareness training. As we will discuss in the "Social Engineering" section, if you want to positively influence someone's behavior, you have to increase their awareness and communicate what is acceptable/unacceptable. 
 
 ### Undocumented Assets
 
-### 
+You must understand what you have in order to protect it. Undocumented Assets are systems that were added to the network and were either forgotten about at some point or never inventoried. They are your organization's blind-spots. It's like being a home owner. How can you protect your family if you don't know how many doors you need to lock at night?
 
 ### Improper Key Management
 
-
+As a cybersecurity professional, you must ensure keys are properly created, shared, used, stored, and disposed. When we say "keys" we really mean anything that provides access. This includes physical keys, RFID badges, smart cards, PINs, passwords, digital certificates, and safe combinations. I discuss attacks against RFID systems in the "Wireless Communications" section.
 
 ## System Design
 
