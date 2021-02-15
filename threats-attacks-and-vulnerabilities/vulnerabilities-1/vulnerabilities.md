@@ -28,15 +28,17 @@ As a cybersecurity professional, you must ensure keys are properly created, shar
 
 ## System Design
 
-### Improper Input Handling
-
-### Race Conditions
+System Design represents an opportunity to "bake-in" cybersecurity as opposed to "bolting it on" later. You must ensure your developers are explicit in resource management, sanitize input, minimize the verbosity of errors, and include comments for the day they have to revisit their code. Resource management is how one handles memory, computing, storage, etc. 
 
 ### Zero-Days
 
 Zero-Days are vulnerabilities that do not have a patch yet. The name alludes to the number of days the software/hardware developer has had to address it.
 
+### Improper Input Handling
+
 ### Improper Error Handling
+
+### Race Conditions
 
 ### Memory/Buffer Vulnerabilities
 
