@@ -44,8 +44,6 @@ Race Conditions are when programs compete to access or change a shared resource 
 
 ### Memory Buffers
 
-Race Conditions are when programs compete to access or change a shared resource at the same time. The winning operation depends on the program. Yet, the impact could allow an attacker to access confidential information, escalate their privileges, or cause a computer to crash. As a cybersecurity professional, impress upon your developers to use resource locks in their code. A great example is when you try to access a file already opened by someone else. You get told someone is using it and you have to wait. This is how programs should work.
-
 Buffers are what programs use to absorb input and store data in memory. Think of them like glasses of water on a waiter’s tray. The tray their holding is the program, the glasses are buffers, and the water is data. If a developer fails to control how much data \(water\) goes into a buffer \(glass\), the system \(waiter\) and program \(tray\) could crash. Another name for when these conditions lead to a program crash is called a Buffer Overflow. The best way to prevent Buffer Overflows is to use Bounds Checking. Bounds Checking is when a program checks to see if the data provided will fit into the buffer it’s destined for before ingesting it.
 
 ### Resource Exhaustion
@@ -53,9 +51,6 @@ Buffers are what programs use to absorb input and store data in memory. Think of
 Resource Exhaustion will happen if a developer fails to efficiently address memory, computing, storage, and networking usage. While Resource Exhaustion is the vulnerability, the impact is a Denial-of-Service \(DoS\). Without additional resources to reorganize itself, a program will pause indefinitely or even crash the system it’s residing on \(preventing the organization from doing what it needs to do\).
 
 ### Zero-Days
-
-Resource Exhaustion will happen if a developer fails to efficiently address memory, computing, storage, and networking usage. While Resource Exhaustion is the vulnerability, the impact is a Denial-of-Service \(DoS\). Without additional resources to reorganize itself, a program will pause indefinitely or even crash the system it’s residing on \(preventing the organization from doing what it needs to do\).   
-
 
 Zero-Days are software vulnerabilities that don’t have a patch yet. The name is intended to describe how little time the developer has had to address the security flaw. Zero-Days are important in terms of risk because they carry a high probability of success. If an attacker is able to discover one, they will not only be able to compromise your organization, but any organization running the same vulnerable program.
 
