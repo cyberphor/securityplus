@@ -4,7 +4,7 @@ description: Explain the impact associated with types of vulnerabilities.
 
 # Vulnerability Research
 
-As a cybersecurity professional, it is important to routinely conduct research into the conditions or security flaws that enable threat actors to achieve their objectives. At a high-level, these _vulnerabilities_ can be organized as business processes, system design, misconfigurations, and architecture design. Although, I prefer to use Standard Operating Procedures \(SOPs\), system design, system misconfigurations, and network defensibility. 
+As a cybersecurity professional, it is important to routinely conduct research into the conditions or security flaws that enable threat actors to achieve their objectives. At a high-level, these _vulnerabilities_ can be organized as business processes, system design, misconfigurations, and architecture design. Although, I prefer to use Standard Operating Procedures \(SOPs\), system design, system misconfigurations, and network defensibility.
 
 {% hint style="info" %}
 **Vulnerabilities** are conditions or security flaws that enable threat actors to achieve their objectives.
@@ -12,11 +12,11 @@ As a cybersecurity professional, it is important to routinely conduct research i
 
 ## Standard Operating Procedures
 
-Standard Operating Procedures \(SOPs\) contain administrative security controls and provide instruction on for what should be routine work. For example, the impact of having untrained users, undocumented assets, and poor key management are all signs the organization either does not have, follow, or enforce an SOP. If they did, the risk of the scenarios mentioned would not be a source of vulnerability. 
+Standard Operating Procedures \(SOPs\) contain administrative security controls and provide instruction on for what should be routine work. For example, the impact of having untrained users, undocumented assets, and poor key management are all signs the organization either does not have, follow, or enforce an SOP. If they did, the risk of the scenarios mentioned would not be a source of vulnerability.
 
 ### Untrained Users
 
-Untrained Users are people who are unaware of the cybersecurity responsibilities they have within the organization. Their ignorance is all that stands between a determined Threat Actor and the next billion dollar data breach. Before granting anyone network access, ensure they have the correct security clearance, need-to-know, signed an Acceptable Use Policy \(AUP\), signed a Non-Disclosure Agreement \(NDA\), and has completed your organization's cybersecurity awareness training. As we will discuss in the "Social Engineering" section, if you want to positively influence someone's behavior, you have to increase their awareness and communicate what is acceptable/unacceptable. 
+Untrained Users are people who are unaware of the cybersecurity responsibilities they have within the organization. Their ignorance is all that stands between a determined Threat Actor and the next billion dollar data breach. Before granting anyone network access, ensure they have the correct security clearance, need-to-know, signed an Acceptable Use Policy \(AUP\), signed a Non-Disclosure Agreement \(NDA\), and has completed your organization's cybersecurity awareness training. As we will discuss in the "Social Engineering" section, if you want to positively influence someone's behavior, you have to increase their awareness and communicate what is acceptable/unacceptable.
 
 ### Undocumented Assets
 
@@ -28,15 +28,15 @@ As a cybersecurity professional, you must ensure keys are properly created, shar
 
 ## System Design
 
-System Design represents an opportunity for developers and engineers to bake cybersecurity into the System Development Lifecycle \(SDLC\). The SDLC is a process computers and software programs go through before they’re put in front of the user. Generally speaking, it begins with the user identifying the need for something they don’t have. Next, the developer takes the requirements provided and designs, produces, tests, and deploys a solution. As a cybersecurity professional, be cognizant of these decision points. What the developer and user believe are features are often vulnerable functions. 
+System Design represents an opportunity for developers and engineers to bake cybersecurity into the System Development Lifecycle \(SDLC\). The SDLC is a process computers and software programs go through before they’re put in front of the user. Generally speaking, it begins with the user identifying the need for something they don’t have. Next, the developer takes the requirements provided and designs, produces, tests, and deploys a solution. As a cybersecurity professional, be cognizant of these decision points. What the developer and user believe are features are often vulnerable functions.
 
 ### Improper Input Handling
 
-Improper Input Handling is when the developer fails to include code that sanitizes data before it is processed. This code should explicitly define what the program expects to receive and specify what should happen if it gets something else. Cross-Site Scripting and SQL Injection are two real-world examples. Again, the vulnerability or security flaw here is a lack of input validation. 
+Improper Input Handling is when the developer fails to include code that sanitizes data before it is processed. This code should explicitly define what the program expects to receive and specify what should happen if it gets something else. Cross-Site Scripting and SQL Injection are two real-world examples. Again, the vulnerability or security flaw here is a lack of input validation.
 
 ### Improper Error Handling
 
-Improper Error Handling is when the developer fails to limit the verbosity of output generated by a program when something bad happens. Verbosity is a fancy way of saying “full of words.” So when a program crashes it should include the minimum words necessary for the user and/or developer to resolve the problem at-hand. For instance, details like the date, time, and type of error \(input, network, etc.\) are fine. Yet, a program should not disclose the underlying Operating System \(OS\) version, program version, etc. This kind of information helps make it easier for the attacker to perform reconnaissance and prepare their exploits.   
+Improper Error Handling is when the developer fails to limit the verbosity of output generated by a program when something bad happens. Verbosity is a fancy way of saying “full of words.” So when a program crashes it should include the minimum words necessary for the user and/or developer to resolve the problem at-hand. For instance, details like the date, time, and type of error \(input, network, etc.\) are fine. Yet, a program should not disclose the underlying Operating System \(OS\) version, program version, etc. This kind of information helps make it easier for the attacker to perform reconnaissance and prepare their exploits.
 
 ### Race Conditions
 
@@ -44,11 +44,11 @@ Race Conditions are when programs compete to access or change a shared resource 
 
 ### Memory Buffers
 
-Buffers are what programs use to absorb input and store data in memory. Think of them like glasses of water on a waiter’s tray. The tray their holding is the program, the glasses are buffers, and the water is data. If a developer fails to control how much data \(water\) goes into a buffer \(glass\), the system \(waiter\) and program \(tray\) could crash. Another name for when these conditions lead to a program crash is called a Buffer Overflow. The best way to prevent Buffer Overflows is to use Bounds Checking. Bounds Checking is when a program checks to see if the data provided will fit into the buffer it’s destined for before ingesting it. 
+Buffers are what programs use to absorb input and store data in memory. Think of them like glasses of water on a waiter’s tray. The tray their holding is the program, the glasses are buffers, and the water is data. If a developer fails to control how much data \(water\) goes into a buffer \(glass\), the system \(waiter\) and program \(tray\) could crash. Another name for when these conditions lead to a program crash is called a Buffer Overflow. The best way to prevent Buffer Overflows is to use Bounds Checking. Bounds Checking is when a program checks to see if the data provided will fit into the buffer it’s destined for before ingesting it.
 
 ### Resource Exhaustion
 
-Resource Exhaustion will happen if a developer fails to efficiently address memory, computing, storage, and networking usage. While Resource Exhaustion is the vulnerability, the impact is a Denial-of-Service \(DoS\). Without additional resources to reorganize itself, a program will pause indefinitely or even crash the system it’s residing on \(preventing the organization from doing what it needs to do\). 
+Resource Exhaustion will happen if a developer fails to efficiently address memory, computing, storage, and networking usage. While Resource Exhaustion is the vulnerability, the impact is a Denial-of-Service \(DoS\). Without additional resources to reorganize itself, a program will pause indefinitely or even crash the system it’s residing on \(preventing the organization from doing what it needs to do\).
 
 ### Zero-Days
 
